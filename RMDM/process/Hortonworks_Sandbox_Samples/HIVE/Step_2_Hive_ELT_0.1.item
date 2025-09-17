@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendDBMap="http://www.talend.org/dbmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendDBMap="http://www.talend.org/dbmap" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="hive_host" prompt="hive_host?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="sandbox"/>
     <contextParameter comment="" name="hive_port" prompt="hive_port?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="9083"/>
@@ -151,7 +152,7 @@
       <column comment="" key="false" length="14" name="State" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="STRING" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendDBMap:DBMapData">
-      <InputTables joinType="NO_JOIN" name="customers" tableName="customers">
+      <InputTables name="customers" tableName="customers" joinType="NO_JOIN">
         <DBMapperTableEntries name="id"/>
         <DBMapperTableEntries name="First_Name"/>
         <DBMapperTableEntries name="Last_Name"/>
@@ -159,18 +160,18 @@
         <DBMapperTableEntries name="idState"/>
         <DBMapperTableEntries name="Revenue"/>
       </InputTables>
-      <InputTables joinType="LEFT_OUTER_JOIN" name="us_states" tableName="us_states">
-        <DBMapperTableEntries expression="customers.idState " join="true" name="stateid" operator="="/>
+      <InputTables name="us_states" tableName="us_states" joinType="LEFT_OUTER_JOIN">
+        <DBMapperTableEntries name="stateid" expression="customers.idState " join="true" operator="="/>
         <DBMapperTableEntries name="State"/>
       </InputTables>
       <OutputTables name="table2" tableName="customerWithState">
-        <DBMapperTableEntries expression="customers.id" name="id"/>
-        <DBMapperTableEntries expression="customers.First_Name" name="First_Name"/>
-        <DBMapperTableEntries expression="customers.Last_Name" name="Last_Name"/>
-        <DBMapperTableEntries expression="customers.Address" name="Address"/>
-        <DBMapperTableEntries expression="customers.idState" name="idState"/>
-        <DBMapperTableEntries expression="customers.Revenue" name="Revenue"/>
-        <DBMapperTableEntries expression="us_states.State " name="State"/>
+        <DBMapperTableEntries name="id" expression="customers.id"/>
+        <DBMapperTableEntries name="First_Name" expression="customers.First_Name"/>
+        <DBMapperTableEntries name="Last_Name" expression="customers.Last_Name"/>
+        <DBMapperTableEntries name="Address" expression="customers.Address"/>
+        <DBMapperTableEntries name="idState" expression="customers.idState"/>
+        <DBMapperTableEntries name="Revenue" expression="customers.Revenue"/>
+        <DBMapperTableEntries name="State" expression="us_states.State "/>
       </OutputTables>
     </nodeData>
   </node>
@@ -498,7 +499,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHiveConnection_2" offsetLabelX="0" offsetLabelY="0" source="tHiveConnection_2" target="tELTHiveMap_1">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
@@ -517,7 +518,7 @@
     <elementParameter field="TEXT" name="RESUMLABEL" value=""/>
     <elementParameter field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
   </connection>
-  <note opaque="true" posX="32" posY="0" sizeHeight="97" sizeWidth="321" text="This joins the data from Step_1_Hive_Load_Tables&#13;&#10;and looks for customers that have valid States all &#13;&#10;done on HIVE using Talend ELT.">
+  <note opaque="true" posX="32" posY="0" sizeHeight="97" sizeWidth="321" text="This joins the data from Step_1_Hive_Load_Tables&#xD;&#xA;and looks for customers that have valid States all &#xD;&#xA;done on HIVE using Talend ELT.">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="166;193;152"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="0;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="false"/>
@@ -564,32 +565,4 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_68bdf95b-469e-422b-8631-9e4463781c4e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>yRfzjPT6oCiasIcJA2CKoYq2YPKGY1sij8dDjCMGbrojA9GTnXfXqFMHT5yfpSUmry6kf7Oxz100&#13;
-PuL14fvy9w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f676438f-113d-43e3-a94a-b88d480c044b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6SlQ7ioQ/il8dbJL732ULtotzBKSRk2xRD8IZD9rX443ukuy5CbieGKlz2kIguOxDUBZKB5vGmkp&#13;
-JSKg4qIb5w==</DigestValue></Reference></SignedInfo><SignatureValue>nAgQRfCfvrXyketrPWdFvV1PdQV00ueyMskmF7oG9moNaaLp46+CfNj9CrJ4orgn5NFKCQH/n2kZ&#13;
-KC0ywIXKl6T+yX+wmJXcoKDGY4Ih0RkLE7bPEGHH7h0Dy0NnaGBEv3YlJrx/VaA59vmby/uNaEF2&#13;
-5JlT2SpW5tw9s0dJNLNnPXvT/bJwOGRoEZFtzIZxeVylH27TmlDgPr8fYF0nabj8uHSoU99flQLO&#13;
-3wHJAU9jPc8H8AxG84BLmv43tILPHGxthP5hTKReOv6z0lw3n3kQM2Ump6JWrYcb0CNCmn+Gp/H3&#13;
-sJibAMTtODDr7OPbnMnIAyoJPV15BY9qRGxe7A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
-DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
-VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
-QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
-YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
-bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
-IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
-DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
-alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
-e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
-CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
-TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
-BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
-gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
-eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
-f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
-G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
-mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
-hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
-WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
-gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
-qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f676438f-113d-43e3-a94a-b88d480c044b" Target="#_68bdf95b-469e-422b-8631-9e4463781c4e"><Timestamp>2021-09-26 10:26:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+</talendfile:ProcessType>

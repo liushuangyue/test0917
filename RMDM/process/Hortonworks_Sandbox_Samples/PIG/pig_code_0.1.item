@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_MuMzoB60EeyAB7e2CfBaPA" name="hdfs_test_dir" prompt="hdfs_test_dir?" promptNeeded="false" type="id_String" value="/user/hdp/test"/>
+    <contextParameter comment="" name="hdfs_test_dir" prompt="hdfs_test_dir?" promptNeeded="false" type="id_String" value="/user/hdp/test" internalId="_MuMzoB60EeyAB7e2CfBaPA"/>
     <contextParameter comment="" name="jobtracker_host" prompt="jobtracker_host?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="sandbox"/>
     <contextParameter comment="" name="jobtracker_port" prompt="jobtracker_port?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="50300"/>
     <contextParameter comment="" name="namenode_host" prompt="namenode_host?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="sandbox"/>
@@ -158,7 +159,7 @@
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="true"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
-    <elementParameter field="MEMO" name="INLINECONTENT" value="2000;Jan;262&#10;2000;Feb;239&#10;2000;Mar;303&#10;2000;Apr;294&#10;2000;May;323&#10;2000;Jun;332&#10;2000;Jul;338&#10;2000;Aug;359&#10;2000;Sep;328&#10;2000;Oct;364&#10;2000;Nov;288&#10;2000;Dec;300&#10;2001;Jan;318&#10;2001;Feb;262&#10;2001;Mar;328&#10;2001;Apr;291&#10;2001;May;345&#10;2001;Jun;319&#10;2001;Jul;335&#10;2001;Aug;367&#10;2001;Sep;379&#10;2001;Oct;299&#10;2001;Nov;314&#10;2001;Dec;369&#10;2002;Jan;308&#10;2002;Feb;270&#10;2002;Mar;354&#10;2002;Apr;310&#10;2002;May;348&#10;2002;Jun;344&#10;2002;Jul;411&#10;2002;Aug;374&#10;2002;Sep;349&#10;2002;Oct;352&#10;2002;Nov;332&#10;2002;Dec;337&#10;2003;Jan;318&#10;2003;Feb;308&#10;2003;Mar;326&#10;2003;Apr;314&#10;2003;May;313&#10;2003;Jun;369&#10;2003;Jul;370&#10;2003;Aug;368&#10;2003;Sep;392&#10;2003;Oct;388&#10;2003;Nov;383&#10;2003;Dec;376&#10;2004;Jan;318&#10;2004;Feb;307&#10;2004;Mar;310&#10;2004;Apr;346&#10;2004;May;352&#10;2004;Jun;329&#10;2004;Jul;408&#10;2004;Aug;394&#10;2004;Sep;352&#10;2004;Oct;338&#10;2004;Nov;298&#10;2004;Dec;342&#10;2005;Jan;300&#10;2005;Feb;269&#10;2005;Mar;305&#10;2005;Apr;323&#10;2005;May;351&#10;2005;Jun;347&#10;2005;Jul;455&#10;2005;Aug;426&#10;2005;Sep;347&#10;2005;Oct;410&#10;2005;Nov;395&#10;2005;Dec;376&#10;2006;Jan;323&#10;2006;Feb;284&#10;2006;Mar;337&#10;2006;Apr;314&#10;2006;May;365&#10;2006;Jun;355&#10;2006;Jul;388&#10;2006;Aug;401&#10;2006;Sep;377&#10;2006;Oct;349&#10;2006;Nov;353&#10;2006;Dec;351&#10;2007;Jan;308&#10;2007;Feb;293&#10;2007;Mar;353&#10;2007;Apr;323&#10;2007;May;331&#10;2007;Jun;328&#10;2007;Jul;324&#10;2007;Aug;368&#10;2007;Sep;323&#10;2007;Oct;348&#10;2007;Nov;351&#10;2007;Dec;317&#10;2008;Jan;263&#10;2008;Feb;279&#10;2008;Mar;247&#10;2008;Apr;296&#10;2008;May;280&#10;2008;Jun;279&#10;2008;Jul;280&#10;2008;Aug;308&#10;2008;Sep;312&#10;2008;Oct;303&#10;2008;Nov;273&#10;2008;Dec;281&#10;2009;Jan;271&#10;2009;Feb;231&#10;2009;Mar;235&#10;2009;Apr;246&#10;2009;May;263&#10;2009;Jun;245&#10;2009;Jul;222&#10;2009;Aug;316&#10;2009;Sep;239&#10;2009;Oct;283&#10;2009;Nov;276&#10;2009;Dec;249"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="2000;Jan;262&#xA;2000;Feb;239&#xA;2000;Mar;303&#xA;2000;Apr;294&#xA;2000;May;323&#xA;2000;Jun;332&#xA;2000;Jul;338&#xA;2000;Aug;359&#xA;2000;Sep;328&#xA;2000;Oct;364&#xA;2000;Nov;288&#xA;2000;Dec;300&#xA;2001;Jan;318&#xA;2001;Feb;262&#xA;2001;Mar;328&#xA;2001;Apr;291&#xA;2001;May;345&#xA;2001;Jun;319&#xA;2001;Jul;335&#xA;2001;Aug;367&#xA;2001;Sep;379&#xA;2001;Oct;299&#xA;2001;Nov;314&#xA;2001;Dec;369&#xA;2002;Jan;308&#xA;2002;Feb;270&#xA;2002;Mar;354&#xA;2002;Apr;310&#xA;2002;May;348&#xA;2002;Jun;344&#xA;2002;Jul;411&#xA;2002;Aug;374&#xA;2002;Sep;349&#xA;2002;Oct;352&#xA;2002;Nov;332&#xA;2002;Dec;337&#xA;2003;Jan;318&#xA;2003;Feb;308&#xA;2003;Mar;326&#xA;2003;Apr;314&#xA;2003;May;313&#xA;2003;Jun;369&#xA;2003;Jul;370&#xA;2003;Aug;368&#xA;2003;Sep;392&#xA;2003;Oct;388&#xA;2003;Nov;383&#xA;2003;Dec;376&#xA;2004;Jan;318&#xA;2004;Feb;307&#xA;2004;Mar;310&#xA;2004;Apr;346&#xA;2004;May;352&#xA;2004;Jun;329&#xA;2004;Jul;408&#xA;2004;Aug;394&#xA;2004;Sep;352&#xA;2004;Oct;338&#xA;2004;Nov;298&#xA;2004;Dec;342&#xA;2005;Jan;300&#xA;2005;Feb;269&#xA;2005;Mar;305&#xA;2005;Apr;323&#xA;2005;May;351&#xA;2005;Jun;347&#xA;2005;Jul;455&#xA;2005;Aug;426&#xA;2005;Sep;347&#xA;2005;Oct;410&#xA;2005;Nov;395&#xA;2005;Dec;376&#xA;2006;Jan;323&#xA;2006;Feb;284&#xA;2006;Mar;337&#xA;2006;Apr;314&#xA;2006;May;365&#xA;2006;Jun;355&#xA;2006;Jul;388&#xA;2006;Aug;401&#xA;2006;Sep;377&#xA;2006;Oct;349&#xA;2006;Nov;353&#xA;2006;Dec;351&#xA;2007;Jan;308&#xA;2007;Feb;293&#xA;2007;Mar;353&#xA;2007;Apr;323&#xA;2007;May;331&#xA;2007;Jun;328&#xA;2007;Jul;324&#xA;2007;Aug;368&#xA;2007;Sep;323&#xA;2007;Oct;348&#xA;2007;Nov;351&#xA;2007;Dec;317&#xA;2008;Jan;263&#xA;2008;Feb;279&#xA;2008;Mar;247&#xA;2008;Apr;296&#xA;2008;May;280&#xA;2008;Jun;279&#xA;2008;Jul;280&#xA;2008;Aug;308&#xA;2008;Sep;312&#xA;2008;Oct;303&#xA;2008;Nov;273&#xA;2008;Dec;281&#xA;2009;Jan;271&#xA;2009;Feb;231&#xA;2009;Mar;235&#xA;2009;Apr;246&#xA;2009;May;263&#xA;2009;Jun;245&#xA;2009;Jul;222&#xA;2009;Aug;316&#xA;2009;Sep;239&#xA;2009;Oct;283&#xA;2009;Nov;276&#xA;2009;Dec;249"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
@@ -289,7 +290,7 @@
   </node>
   <node componentName="tPigCode" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPigCode_1"/>
-    <elementParameter field="MEMO" name="SCRIPT_CODE" value="B = GROUP tPigLoad_1_row2_RESULT BY year;                                                                                         &#10;tPigCode_1_row3_RESULT = FOREACH B GENERATE group as year, SUM(tPigLoad_1_row2_RESULT.fatalities) as annual_fatalities;                                        &#10;"/>
+    <elementParameter field="MEMO" name="SCRIPT_CODE" value="B = GROUP tPigLoad_1_row2_RESULT BY year;                                                                                         &#xA;tPigCode_1_row3_RESULT = FOREACH B GENERATE group as year, SUM(tPigLoad_1_row2_RESULT.fatalities) as annual_fatalities;                                        &#xA;"/>
     <elementParameter field="CHECK" name="ESCAPE" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
@@ -502,7 +503,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tPigLoad_1">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
@@ -559,7 +560,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tPigLoad_1" offsetLabelX="0" offsetLabelY="0" source="tPigLoad_1" target="tHDFSInput_1">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
@@ -613,7 +614,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tHDFSInput_1" offsetLabelX="0" offsetLabelY="0" source="tHDFSInput_1" target="tLogRow_1">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
@@ -650,7 +651,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSConnection_1"/>
@@ -677,32 +678,4 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_844c023a-a985-4569-9064-3a8cb7189321"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LS55M9EXqxbrUoHW/vE5Z3O/+OMdKuPTcLki772ww73cL0qTodtSR/T4rxrOFRkCLxdUQGfjsBry&#13;
-3vdY5oIYXw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f9434992-f1df-4ca6-828f-3e3453a016d3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>epLEIx7einrJt226x6BmrQUaxEC+HdxfOTTJ/YesdKlnCuVFD3r+y9qQupikaefDl//BJXsqwgx2&#13;
-ZolsteykuA==</DigestValue></Reference></SignedInfo><SignatureValue>Tu/EWsloIGiXt8rUiZ+gLykPqWeYNH7XkStGmtZbSrPdWqV85PSpKz7dQMp3A64kx/f5CNcgUhH2&#13;
-3oqy1Nbd+YkLXQaU/PU5p1WNycB5aqpR/ukHPpwyIYypNFFIjOD1j0qeO9FzIAeh6UdIpXx7PiVN&#13;
-MWp5waHI452ap7G83qbSphaU3Rq6X4x7DOsYP6aaEh7FINiTQxiHT+8kxE0UebOjBqLKI5XU8TdS&#13;
-rMWWgeQwmScr87ZI0SPbyQ8JkOVVPZGaWLXwMoyl4QP9eRwXlKFM2O1NCieyABNE8vALkZXIMYr4&#13;
-Y8AZx3F0i0H+TlA5PagCp08T+EXXb6aBHwwbwg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
-DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
-VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
-QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
-YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
-bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
-IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
-DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
-alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
-e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
-CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
-TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
-BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
-gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
-eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
-f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
-G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
-mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
-hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
-WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
-gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
-qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f9434992-f1df-4ca6-828f-3e3453a016d3" Target="#_844c023a-a985-4569-9064-3a8cb7189321"><Timestamp>2021-09-26 10:26:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+</talendfile:ProcessType>

@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_NyilgB60EeyAB7e2CfBaPA" name="hdfs_test_dir" prompt="hdfs_test_dir?" promptNeeded="false" type="id_String" value="/user/hdp/test"/>
-    <contextParameter comment="" internalId="_NyilgR60EeyAB7e2CfBaPA" name="local_lib_dir" prompt="local_lib_dir?" promptNeeded="false" type="id_String" value="../lib"/>
-    <contextParameter comment="" internalId="_Nyilgh60EeyAB7e2CfBaPA" name="pigload_uri" prompt="pigload_uri?" promptNeeded="false" type="id_String" value="hdfs://hdp.localdomain:8020/user/hdp/test/lib"/>
+    <contextParameter comment="" name="hdfs_test_dir" prompt="hdfs_test_dir?" promptNeeded="false" type="id_String" value="/user/hdp/test" internalId="_NyilgB60EeyAB7e2CfBaPA"/>
+    <contextParameter comment="" name="local_lib_dir" prompt="local_lib_dir?" promptNeeded="false" type="id_String" value="../lib" internalId="_NyilgR60EeyAB7e2CfBaPA"/>
+    <contextParameter comment="" name="pigload_uri" prompt="pigload_uri?" promptNeeded="false" type="id_String" value="hdfs://hdp.localdomain:8020/user/hdp/test/lib" internalId="_Nyilgh60EeyAB7e2CfBaPA"/>
     <contextParameter comment="" name="jobtracker_host" prompt="jobtracker_host?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="sandbox"/>
     <contextParameter comment="" name="jobtracker_port" prompt="jobtracker_port?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="50300"/>
     <contextParameter comment="" name="namenode_host" prompt="namenode_host?" promptNeeded="false" repositoryContextId="_K6F5wKxBEeGdy-T2skU_Bw" type="id_String" value="sandbox"/>
@@ -131,7 +132,7 @@
   <node componentName="tHCatalogOperation" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="128" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHCatalogOperation_1"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS"/>
-    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_1_2"/>
+    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_3_1_4_12_1"/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value=""/>
     <elementParameter field="TEXT" name="TEMPLETON_HOST" value="context.templeton_host"/>
     <elementParameter field="TEXT" name="TEMPLETON_PORT" value="context.templeton_port"/>
@@ -184,7 +185,7 @@
   <node componentName="tHCatalogOperation" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="352" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHCatalogOperation_2"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS"/>
-    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_1_2"/>
+    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_3_1_4_12_1"/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value=""/>
     <elementParameter field="TEXT" name="TEMPLETON_HOST" value="context.templeton_host"/>
     <elementParameter field="TEXT" name="TEMPLETON_PORT" value="context.templeton_port"/>
@@ -260,7 +261,7 @@
     <elementParameter field="RADIO" name="USE_INLINECONTENT" value="true"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
-    <elementParameter field="MEMO" name="INLINECONTENT" value="101;Adam;Wiley;Sales&#10;102;Brian;Chester;Service&#10;103;Julian;Cross;Sales&#10;104;Dylan;Moore;Marketing&#10;105;Chris;Murphy;Service&#10;106;Brian;Collingwood;Service&#10;107;Michael;Muster;Marketing&#10;108;Miley;Rhodes;Sales&#10;109;Chris;Coughlan;Sales&#10;110;Aaron;King;Marketing&#10;111;Adam;Young;Service&#10;112;Tyler;White;Sales&#10;113;Martin;Reeves;Service&#10;114;Michael;Morton;Sales&#10;115;Tim;Rhodes;Marketing"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" value="101;Adam;Wiley;Sales&#xA;102;Brian;Chester;Service&#xA;103;Julian;Cross;Sales&#xA;104;Dylan;Moore;Marketing&#xA;105;Chris;Murphy;Service&#xA;106;Brian;Collingwood;Service&#xA;107;Michael;Muster;Marketing&#xA;108;Miley;Rhodes;Sales&#xA;109;Chris;Coughlan;Sales&#xA;110;Aaron;King;Marketing&#xA;111;Adam;Young;Service&#xA;112;Tyler;White;Sales&#xA;113;Martin;Reeves;Service&#xA;114;Michael;Morton;Sales&#xA;115;Tim;Rhodes;Marketing"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="false"/>
     <elementParameter field="MEMO" name="COMMENT" value=""/>
@@ -303,27 +304,27 @@
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
-      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
-      <outputTables activateExpressionFilter="true" expressionFilter="&quot;Sales&quot;.equals(row1.dept_name)" name="sales" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row1.id" name="id" nullable="true" type="id_Integer"/>
-        <mapperTableEntries expression="row1.first_name" name="first_name" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.last_name " name="last_name" nullable="true" type="id_String"/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="sales" expressionFilter="&quot;Sales&quot;.equals(row1.dept_name)" activateExpressionFilter="true">
+        <mapperTableEntries name="id" expression="row1.id" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="first_name" expression="row1.first_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="last_name" expression="row1.last_name " type="id_String" nullable="true"/>
       </outputTables>
-      <outputTables activateExpressionFilter="true" expressionFilter="&quot;Service&quot;.equals(row1.dept_name)" name="service" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row1.id " name="id" nullable="true" type="id_Integer"/>
-        <mapperTableEntries expression="row1.first_name  " name="first_name" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.last_name " name="last_name" nullable="true" type="id_String"/>
+      <outputTables sizeState="INTERMEDIATE" name="service" expressionFilter="&quot;Service&quot;.equals(row1.dept_name)" activateExpressionFilter="true">
+        <mapperTableEntries name="id" expression="row1.id " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="first_name" expression="row1.first_name  " type="id_String" nullable="true"/>
+        <mapperTableEntries name="last_name" expression="row1.last_name " type="id_String" nullable="true"/>
       </outputTables>
-      <outputTables activateExpressionFilter="true" expressionFilter="&quot;Marketing&quot;.equals(row1.dept_name)" name="marketing" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row1.id " name="id" nullable="true" type="id_Integer"/>
-        <mapperTableEntries expression="row1.first_name " name="first_name" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row1.last_name " name="last_name" nullable="true" type="id_String"/>
+      <outputTables sizeState="INTERMEDIATE" name="marketing" expressionFilter="&quot;Marketing&quot;.equals(row1.dept_name)" activateExpressionFilter="true">
+        <mapperTableEntries name="id" expression="row1.id " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="first_name" expression="row1.first_name " type="id_String" nullable="true"/>
+        <mapperTableEntries name="last_name" expression="row1.last_name " type="id_String" nullable="true"/>
       </outputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="id" nullable="true" type="id_Integer"/>
-        <mapperTableEntries name="first_name" nullable="true" type="id_String"/>
-        <mapperTableEntries name="last_name" nullable="true" type="id_String"/>
-        <mapperTableEntries name="dept_name" nullable="true" type="id_String"/>
+      <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="id" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="first_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="last_name" type="id_String" nullable="true"/>
+        <mapperTableEntries name="dept_name" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
@@ -331,7 +332,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHCatalogOutput_1"/>
     <elementParameter field="CHECK" name="END_OF_FLOW" value="true"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS"/>
-    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_1_2"/>
+    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_3_1_4_12_1"/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value=""/>
     <elementParameter field="CHECK" name="USE_KRB" value="false"/>
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;nn/_HOST@EXAMPLE.COM&quot;"/>
@@ -371,7 +372,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHCatalogOutput_2"/>
     <elementParameter field="CHECK" name="END_OF_FLOW" value="true"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS"/>
-    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_1_2"/>
+    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_3_1_4_12_1"/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value=""/>
     <elementParameter field="CHECK" name="USE_KRB" value="false"/>
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;nn/_HOST@EXAMPLE.COM&quot;"/>
@@ -411,7 +412,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHCatalogOutput_3"/>
     <elementParameter field="CHECK" name="END_OF_FLOW" value="true"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS"/>
-    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_1_2"/>
+    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_3_1_4_12_1"/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value=""/>
     <elementParameter field="CHECK" name="USE_KRB" value="false"/>
     <elementParameter field="TEXT" name="NAMENODE_PRINCIPAL" value="&quot;nn/_HOST@EXAMPLE.COM&quot;"/>
@@ -727,7 +728,7 @@
   <node componentName="tHCatalogOperation" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="576" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHCatalogOperation_3"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS"/>
-    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_1_2"/>
+    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_3_1_4_12_1"/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value=""/>
     <elementParameter field="TEXT" name="TEMPLETON_HOST" value="context.templeton_host"/>
     <elementParameter field="TEXT" name="TEMPLETON_PORT" value="context.templeton_port"/>
@@ -806,7 +807,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHCatalogInput_1"/>
     <elementParameter field="CHECK" name="END_OF_FLOW" value="false"/>
     <elementParameter field="CLOSED_LIST" name="DISTRIBUTION" value="HORTONWORKS"/>
-    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_1_2"/>
+    <elementParameter field="CLOSED_LIST" name="HCAT_VERSION" value="HDP_3_1_4_12_1"/>
     <elementParameter field="HADOOP_JARS_DIALOG" name="HADOOP_CUSTOM_JARS" value=""/>
     <elementParameter field="TEXT" name="TEMPLETON_HOST" value="context.templeton_host"/>
     <elementParameter field="TEXT" name="TEMPLETON_PORT" value="context.templeton_port"/>
@@ -960,7 +961,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tLibraryLoad_1">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
@@ -1017,7 +1018,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="FLOW" label="service" lineStyle="0" metaname="service" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_1" target="tHCatalogOutput_2">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
@@ -1057,7 +1058,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="FLOW" label="marketing" lineStyle="0" metaname="marketing" offsetLabelX="0" offsetLabelY="0" outputId="3" source="tMap_1" target="tHCatalogOutput_3">
     <elementParameter field="CHECK" name="TRACES_CONNECTION_ENABLE" value="true"/>
@@ -1097,7 +1098,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_1" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_1" target="tLibraryLoad_2">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
@@ -1278,7 +1279,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tPigLoad_1" offsetLabelX="0" offsetLabelY="0" source="tPigLoad_1" target="tHCatalogInput_1">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
@@ -1332,7 +1333,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tHCatalogOperation_3" offsetLabelX="0" offsetLabelY="0" source="tHCatalogOperation_3" target="tFixedFlowInput_1">
     <elementParameter field="RADIO" name="PARTITIONER" value="false"/>
@@ -1420,7 +1421,7 @@
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
-    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#10;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#10;// replace the following expression by your own filter condition &#10;input_row.columnName1.equals(input_row.columnName2)&#10;&#9;&#9;&#9;"/>
+    <elementParameter field="MEMO_JAVA" name="ADVANCED_COND" value="// code sample : use input_row to define the condition.&#xA;// input_row.columnName1.equals(&quot;foo&quot;) ||!(input_row.columnName2.equals(&quot;bar&quot;))&#xA;// replace the following expression by your own filter condition &#xA;input_row.columnName1.equals(input_row.columnName2)&#xA;&#x9;&#x9;&#x9;"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tHDFSDelete_1"/>
@@ -1502,32 +1503,4 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_db5134ba-84cf-45b9-be11-12c90724a408"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OhXR+S1FN2UZC4xyi7uoV/3XRu/WP4r0JOowPuSnYu5Dh8XScuLPqNz4axydtvgsjZQAufzZxHpX&#13;
-YdpTJMTvJw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b58ccf47-21a3-45b3-9663-9fbc09eda50b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0TSIkmSlB+QVaNP9cYgHrpwOzJAUnarTKiJatrgxAtfPtGDH/osAaQHt4lRo/ftsLuUJheF3lJL+&#13;
-Dt2hN3ULvQ==</DigestValue></Reference></SignedInfo><SignatureValue>TNPxbtORzXwREkUf44R/OE9meAK/1rik6FJFBOsFaK6PaZhm86ybh90NDhTVXUMIZJ9Yps4egTfz&#13;
-TRY7G4PpSFUdhHLwMsERSeG3D9S/3OvVD7mpaeRYlzqvhJgtxY6Qw7JEkbPDmtoLDW6HkBeepACf&#13;
-32Nktf7u4ImSWZtRNw7PZPDWrIZCQ9no9j+GRdnhuaXhKIc3Aq8wuxfPKcVdWEL3mRxgogRdmJnI&#13;
-mfASrDDZ8TyBrsiACdp28nU2g6R2R6Qw9j82MVDSMsQm0E2Fne/uS7zQkPTBtjgCtSntg2NOLeIw&#13;
-EVvDkNBPPO/U0UtCiTNBpfvkv9efkw0L6bUgmg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
-DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
-VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
-QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
-YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
-bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
-IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
-DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
-alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
-e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
-CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
-TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
-BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
-gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
-eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
-f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
-G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
-mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
-hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
-WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
-gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
-qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b58ccf47-21a3-45b3-9663-9fbc09eda50b" Target="#_db5134ba-84cf-45b9-be11-12c90724a408"><Timestamp>2021-09-26 10:26:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+</talendfile:ProcessType>
