@@ -1,0 +1,11 @@
+{
+  "itemId" : "_C1-5kHANEeq_CefpXUhzvw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_JQKHsHANEeq_CefpXUhzvw",
+    "parameterList" : [ {
+      "id" : "_nNFPYcQhEeuyuOvTLiHUsw",
+      "name" : "webservicecontext_WSDL"
+    } ]
+  } ]
+}

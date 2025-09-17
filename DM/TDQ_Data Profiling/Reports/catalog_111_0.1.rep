@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_LT8QcDhXEeuvdtrTrcB2qQ" name="catalog_111" creationDate="2020-12-07T14:41:03.669+0800" defaultContext="Default">
+  <clientDependency href="../Analyses/catalog_111_0.1.ana#_LT-FoDhXEeuvdtrTrcB2qQ"/>
+  <taggedValue xmi:id="_LT8QcThXEeuvdtrTrcB2qQ" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_LT8QcjhXEeuvdtrTrcB2qQ" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_LT8QczhXEeuvdtrTrcB2qQ" tag="REP_DBINFO_DBVERSION" value="MYSQL_8"/>
+  <taggedValue xmi:id="_LT8QdDhXEeuvdtrTrcB2qQ" tag="REP_DBINFO_HOST" value="localhost"/>
+  <taggedValue xmi:id="_LT8QdThXEeuvdtrTrcB2qQ" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_LT8QdjhXEeuvdtrTrcB2qQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_LT8QdzhXEeuvdtrTrcB2qQ" tag="REP_DBINFO_DBNAME" value="talend_dq731"/>
+  <taggedValue xmi:id="_LT8QeDhXEeuvdtrTrcB2qQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_LT8QeThXEeuvdtrTrcB2qQ" tag="REP_DBINFO_USER" value="root"/>
+  <taggedValue xmi:id="_LT8QejhXEeuvdtrTrcB2qQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:R7tpm+crncLQM5VGytghcuz2Jx1JLefeL9LHqQkvqbo="/>
+  <taggedValue xmi:id="_LT8QezhXEeuvdtrTrcB2qQ" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_LT8QfDhXEeuvdtrTrcB2qQ" tag="REP_DBINFO_URL" value="jdbc:mysql://localhost:3306/talend_dq731?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_LT8QfThXEeuvdtrTrcB2qQ" tag="REP_DBINFO_DRIVER" value="com.mysql.cj.jdbc.Driver"/>
+  <taggedValue xmi:id="_LT8QfjhXEeuvdtrTrcB2qQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
+  <taggedValue xmi:id="_LT8QfzhXEeuvdtrTrcB2qQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_LT8QgDhXEeuvdtrTrcB2qQ" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_RQsiwDhXEeuvdtrTrcB2qQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_RQsiwThXEeuvdtrTrcB2qQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_RQsiwjhXEeuvdtrTrcB2qQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_RQsiwzhXEeuvdtrTrcB2qQ" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_RQsixDhXEeuvdtrTrcB2qQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_RQsixThXEeuvdtrTrcB2qQ" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_RQtJ0DhXEeuvdtrTrcB2qQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_RQtJ0jhXEeuvdtrTrcB2qQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <analysisMap xmi:id="_LT8QgThXEeuvdtrTrcB2qQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/catalog_111_0.1.ana#_AsoTgDhXEeuvdtrTrcB2qQ"/>
+  </analysisMap>
+  <context xmi:id="_RQtJ0ThXEeuvdtrTrcB2qQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.rules:ParserRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.rules="http://dataquality.rules" xmi:id="_Iz4S8FOTEeqKKozQeIqu0w" name="parser_1">
+  <taggedValue xmi:id="_Iz4S8VOTEeqKKozQeIqu0w" tag="Status" value="development"/>
+  <taggedValue xmi:id="_Iz4S8lOTEeqKKozQeIqu0w" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_Iz4S81OTEeqKKozQeIqu0w" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_Iz4S9FOTEeqKKozQeIqu0w" tag="Description" value=""/>
+  <taggedValue xmi:id="_Iz4S9VOTEeqKKozQeIqu0w" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_Iz4S9lOTEeqKKozQeIqu0w" tag="Validation_Status" value="true"/>
+  <categories href="../../.Talend.definition#_8i9eQBI5Ed6TWL6NwMMHzQ"/>
+  <sqlGenericExpression xmi:id="_JPyy4FOTEeqKKozQeIqu0w" body="&quot;'aaValue'&quot;" language="Enumeration" name="&quot;aa&quot;"/>
+</dataquality.rules:ParserRule>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_ugzYQCAYEeu6gu-EeR03eQ" name="mysql" creationDate="2020-11-06T18:13:33.763+0800" defaultContext="Default">
+  <taggedValue xmi:id="_ugzYQSAYEeu6gu-EeR03eQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_ugzYQiAYEeu6gu-EeR03eQ" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_ugzYQyAYEeu6gu-EeR03eQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_ugzYRCAYEeu6gu-EeR03eQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_ugzYRSAYEeu6gu-EeR03eQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_ugzYRiAYEeu6gu-EeR03eQ" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_ugzYRyAYEeu6gu-EeR03eQ" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_ugzYSCAYEeu6gu-EeR03eQ" tag="REP_DBINFO_DBVERSION" value="MYSQL_8"/>
+  <taggedValue xmi:id="_ugzYSSAYEeu6gu-EeR03eQ" tag="REP_DBINFO_HOST" value="localhost"/>
+  <taggedValue xmi:id="_ugzYSiAYEeu6gu-EeR03eQ" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_ugzYSyAYEeu6gu-EeR03eQ" tag="REP_DBINFO_DBNAME" value="yzhao721_00000bb_721"/>
+  <taggedValue xmi:id="_ugzYTCAYEeu6gu-EeR03eQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_ugzYTSAYEeu6gu-EeR03eQ" tag="REP_DBINFO_USER" value="root"/>
+  <taggedValue xmi:id="_ugzYTiAYEeu6gu-EeR03eQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:/8DhiLsCQqau0KBoVgCdU3U++hfZ4M2Ceu+hLcIcGrw="/>
+  <taggedValue xmi:id="_ugzYTyAYEeu6gu-EeR03eQ" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_ugzYUCAYEeu6gu-EeR03eQ" tag="REP_DBINFO_URL" value="jdbc:mysql://localhost:3306/yzhao721_00000bb_721?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_ugzYUSAYEeu6gu-EeR03eQ" tag="REP_DBINFO_DRIVER" value="com.mysql.cj.jdbc.Driver"/>
+  <taggedValue xmi:id="_ugzYUiAYEeu6gu-EeR03eQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
+  <taggedValue xmi:id="_ugzYUyAYEeu6gu-EeR03eQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_ybnoACAYEeu6gu-EeR03eQ" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_ybnoASAYEeu6gu-EeR03eQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_ybnoAiAYEeu6gu-EeR03eQ" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_ybnoAyAYEeu6gu-EeR03eQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_ybnoBSAYEeu6gu-EeR03eQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <context xmi:id="_ybnoBCAYEeu6gu-EeR03eQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

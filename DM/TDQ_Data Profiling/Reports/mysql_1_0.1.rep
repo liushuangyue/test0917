@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_zDd7IBqGEeurRPMKYhRL2g" name="mysql_1" creationDate="2020-10-30T16:06:21.905+0800" defaultContext="Default">
+  <taggedValue xmi:id="_zDd7IRqGEeurRPMKYhRL2g" tag="Status" value="development"/>
+  <taggedValue xmi:id="_zDd7IhqGEeurRPMKYhRL2g" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_zDd7IxqGEeurRPMKYhRL2g" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_zDd7JBqGEeurRPMKYhRL2g" tag="Description" value=""/>
+  <taggedValue xmi:id="_zDd7JRqGEeurRPMKYhRL2g" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_zDd7JhqGEeurRPMKYhRL2g" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_zDd7JxqGEeurRPMKYhRL2g" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_zDd7KBqGEeurRPMKYhRL2g" tag="REP_DBINFO_DBVERSION" value="MYSQL_8"/>
+  <taggedValue xmi:id="_zDd7KRqGEeurRPMKYhRL2g" tag="REP_DBINFO_HOST" value="localhost"/>
+  <taggedValue xmi:id="_zDd7KhqGEeurRPMKYhRL2g" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_zDd7KxqGEeurRPMKYhRL2g" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_zDd7LBqGEeurRPMKYhRL2g" tag="REP_DBINFO_DBNAME" value="talend_dq731aa"/>
+  <taggedValue xmi:id="_zDd7LRqGEeurRPMKYhRL2g" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_zDd7LhqGEeurRPMKYhRL2g" tag="REP_DBINFO_USER" value="root"/>
+  <taggedValue xmi:id="_zDd7LxqGEeurRPMKYhRL2g" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:w6IiW6tVVm+C6mHDVsaWCrowG8ntMMTU+KvmWQsjw7Y="/>
+  <taggedValue xmi:id="_zDd7MBqGEeurRPMKYhRL2g" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_zDd7MRqGEeurRPMKYhRL2g" tag="REP_DBINFO_URL" value="jdbc:mysql://localhost:3306/talend_dq731aa?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_zDd7MhqGEeurRPMKYhRL2g" tag="REP_DBINFO_DRIVER" value="com.mysql.cj.jdbc.Driver"/>
+  <taggedValue xmi:id="_zDd7MxqGEeurRPMKYhRL2g" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
+  <taggedValue xmi:id="_zDd7NBqGEeurRPMKYhRL2g" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_2P4MwBqGEeurRPMKYhRL2g" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_2P4MwRqGEeurRPMKYhRL2g" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_2P4MwhqGEeurRPMKYhRL2g" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_2P4MwxqGEeurRPMKYhRL2g" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_2P4MxRqGEeurRPMKYhRL2g" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <context xmi:id="_2P4MxBqGEeurRPMKYhRL2g" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

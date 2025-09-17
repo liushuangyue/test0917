@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_ML_u0ACpEeu8PfWNiE3d8Q" name="functional_mysql" supplierDependency="_wxk08CAAEeu6gu-EeR03eQ" creationDate="2020-09-27T18:07:03.228+0800" defaultContext="Default">
+    <clientDependency href="../../../metadata/connections/mysql_tbi_0.1.item#_l-4I8ACnEeu8PfWNiE3d8Q"/>
+    <taggedValue xmi:id="_ML_u0QCpEeu8PfWNiE3d8Q" tag="Status" value="development"/>
+    <taggedValue xmi:id="_ML_u0gCpEeu8PfWNiE3d8Q" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_ML_u0wCpEeu8PfWNiE3d8Q" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_ML_u1ACpEeu8PfWNiE3d8Q" tag="Description" value=""/>
+    <taggedValue xmi:id="_ML_u1QCpEeu8PfWNiE3d8Q" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_PXL4cQCpEeu8PfWNiE3d8Q" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_PXL4cgCpEeu8PfWNiE3d8Q" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_PXNGkQCpEeu8PfWNiE3d8Q" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_ML_u1gCpEeu8PfWNiE3d8Q">
+      <connection href="../../../metadata/connections/mysql_tbi_0.1.item#_c6RU4ACnEeu8PfWNiE3d8Q"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/mysql_tbi_0.1.item#_OCZ20ACpEeu8PfWNiE3d8Q"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/mysql_tbi_0.1.item#_OCZ2-ACpEeu8PfWNiE3d8Q"/>
+    </context>
+    <results xmi:id="_ML_u1wCpEeu8PfWNiE3d8Q">
+      <resultMetadata xmi:id="_ML_u2ACpEeu8PfWNiE3d8Q" executionDate="2020-11-10T20:25:13.468+0800" executionDuration="39" message="" executionNumber="18" lastRunOk="true" lastExecutionNumberOk="18"/>
+      <indicators xsi:type="dataquality.indicators.columnset:ColumnDependencyIndicator" xmi:id="_PXNGkACpEeu8PfWNiE3d8Q" aCount="3634" distinctACount="3634">
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Functional Dependency/Functional_Dependency_0.1.definition#_YqcX0XHpEd6udst2R2sgpA"/>
+        <instantiatedExpressions xmi:id="_PixdYACpEeu8PfWNiE3d8Q" body="SELECT COUNT(*) AS NB, COUNT(DISTINCT A) AS NBDISTINCT FROM (SELECT DISTINCT `customer_id` AS A , `state_province` AS B FROM  `tbi`.`customer` C  ) T" language="SQL"/>
+        <columnA href="../../../metadata/connections/mysql_tbi_0.1.item#_OCZ20ACpEeu8PfWNiE3d8Q"/>
+        <columnB href="../../../metadata/connections/mysql_tbi_0.1.item#_OCZ2-ACpEeu8PfWNiE3d8Q"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_ML_u2QCpEeu8PfWNiE3d8Q" analysisType="Functional Dependency"/>
+    <contextType xmi:id="_PXL4cACpEeu8PfWNiE3d8Q" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_wxk08CAAEeu6gu-EeR03eQ" kind="Usage" supplier="_ML_u0ACpEeu8PfWNiE3d8Q">
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mssql_2017_0.1.rep#_G3uFUSAEEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mysql_5_0.1.rep#_men-cCAAEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mysql_8_0.1.rep#_s2f0kCACEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_oracle_12_0.1.rep#_e52eESADEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_oracle_18_0.1.rep#_dp9jgCADEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_postgres_2017_0.1.rep#_TOkQwSAFEeu6gu-EeR03eQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

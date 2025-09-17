@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.rules:MatchRuleDefinition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.rules="http://dataquality.rules" xmi:id="_FsUsIVOTEeqKKozQeIqu0w" name="mmm">
+  <taggedValue xmi:id="_FsUsIlOTEeqKKozQeIqu0w" tag="Status" value="development"/>
+  <taggedValue xmi:id="_FsUsI1OTEeqKKozQeIqu0w" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_FsUsJFOTEeqKKozQeIqu0w" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_FsUsJVOTEeqKKozQeIqu0w" tag="Description" value=""/>
+  <taggedValue xmi:id="_FsUsJlOTEeqKKozQeIqu0w" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_FsUsJ1OTEeqKKozQeIqu0w" tag="Validation_Status" value="true"/>
+  <blockKeys xmi:id="_Gc50gFOTEeqKKozQeIqu0w" name="stuGender" column="">
+    <preAlgorithm xmi:id="_Gc50gVOTEeqKKozQeIqu0w" algorithmType="NON_ALGO" algorithmParameters=""/>
+    <algorithm xmi:id="_Gc50glOTEeqKKozQeIqu0w" algorithmType="first_Char_EW" algorithmParameters=""/>
+    <postAlgorithm xmi:id="_Gc50g1OTEeqKKozQeIqu0w" algorithmType="NON_ALGO" algorithmParameters=""/>
+  </blockKeys>
+  <matchRules xmi:id="_FvTHoFOTEeqKKozQeIqu0w" name="Match Rule 1">
+    <matchKeys xmi:id="_Ho9_AFOTEeqKKozQeIqu0w" name="stuAddress" column="" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+      <algorithm xmi:id="_Ho9_AVOTEeqKKozQeIqu0w" algorithmType="EXACT" algorithmParameters=""/>
+    </matchKeys>
+  </matchRules>
+</dataquality.rules:MatchRuleDefinition>

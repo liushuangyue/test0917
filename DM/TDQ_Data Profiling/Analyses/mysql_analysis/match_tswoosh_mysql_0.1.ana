@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_DvFM4QCpEeu8PfWNiE3d8Q" name="match_tswoosh_mysql" supplierDependency="_wxptcCAAEeu6gu-EeR03eQ" creationDate="2020-09-27T18:05:41.016+0800" defaultContext="Default">
+    <clientDependency href="../../../metadata/connections/mysql_tbi_0.1.item#_l-4I8ACnEeu8PfWNiE3d8Q"/>
+    <taggedValue xmi:id="_DvFM4gCpEeu8PfWNiE3d8Q" tag="PREVIEW_ROW_NUMBER" value="10000"/>
+    <taggedValue xmi:id="_DvFM4wCpEeu8PfWNiE3d8Q" tag="Status" value="development"/>
+    <taggedValue xmi:id="_DvFM5ACpEeu8PfWNiE3d8Q" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_DvFM5QCpEeu8PfWNiE3d8Q" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_DvFM5gCpEeu8PfWNiE3d8Q" tag="Description" value=""/>
+    <taggedValue xmi:id="_DvFM5wCpEeu8PfWNiE3d8Q" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_DvFM6ACpEeu8PfWNiE3d8Q" tag="TEMP_DATA_DIR" value=""/>
+    <taggedValue xmi:id="_DvFM6QCpEeu8PfWNiE3d8Q" tag="MAX_BUFFER_SIZE" value="200000"/>
+    <taggedValue xmi:id="_DvFM6gCpEeu8PfWNiE3d8Q" tag="STORE_ON_DISK" value="false"/>
+    <taggedValue xmi:id="_DvFM6wCpEeu8PfWNiE3d8Q" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <context xmi:id="_DvFM7ACpEeu8PfWNiE3d8Q">
+      <connection href="../../../metadata/connections/mysql_tbi_0.1.item#_c6RU4ACnEeu8PfWNiE3d8Q"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/mysql_tbi_0.1.item#_klWxTwCnEeu8PfWNiE3d8Q"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/mysql_tbi_0.1.item#_klWxUwCnEeu8PfWNiE3d8Q"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/mysql_tbi_0.1.item#_klWxVwCnEeu8PfWNiE3d8Q"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/mysql_tbi_0.1.item#_klWxWwCnEeu8PfWNiE3d8Q"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/mysql_tbi_0.1.item#_klWxXwCnEeu8PfWNiE3d8Q"/>
+    </context>
+    <results xmi:id="_DvFM7QCpEeu8PfWNiE3d8Q">
+      <resultMetadata xmi:id="_DvFM7gCpEeu8PfWNiE3d8Q" executionDate="2020-11-10T20:25:13.507+0800" executionDuration="58" executionNumber="19" lastRunOk="true" lastExecutionNumberOk="19"/>
+      <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_DvFM7wCpEeu8PfWNiE3d8Q" blockSize2frequency="ACED0005737200116A6176612E7574696C2E547265654D61700CC1F63E2D256AE60300014C000A636F6D70617261746F727400164C6A6176612F7574696C2F436F6D70617261746F723B7870707704000000017372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B020000787000000000000004837371007E0003000000000000000178"/>
+      <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_DvFM8ACpEeu8PfWNiE3d8Q" count="1155" groupSize2groupFrequency="ACED0005737200116A6176612E7574696C2E547265654D61700CC1F63E2D256AE60300014C000A636F6D70617261746F727400164C6A6176612F7574696C2F436F6D70617261746F723B78707077040000000E740001317372000E6A6176612E6C616E672E4C6F6E673B8BE490CC8F23DF0200014A000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870000000000000000474000231367371007E000400000000000000017400013271007E000874000332323271007E000874000332323671007E000874000232347371007E0004000000000000000274000332363471007E000874000332363871007E00087400013371007E0008740002333271007E00087400013471007E0008740002353271007E00087400013671007E00087400013871007E000878" matchedRecordCount="34" suspectRecordCount="1117">
+        <builtInMatchRuleDefinition xmi:id="_DvFM8QCpEeu8PfWNiE3d8Q" recordLinkageAlgorithm="T_SwooshAlgorithm">
+          <matchRules xmi:id="_DvFM8gCpEeu8PfWNiE3d8Q" name="Match Rule 2">
+            <matchKeys xmi:id="_DvFM8wCpEeu8PfWNiE3d8Q" name="position_title" column="position_title" confidenceWeight="1" handleNull="nullMatchNull" threshold="1.0" tokenizationType="No">
+              <algorithm xmi:id="_DvFM9ACpEeu8PfWNiE3d8Q" algorithmType="EXACT" algorithmParameters=""/>
+            </matchKeys>
+          </matchRules>
+          <survivorshipKeys xmi:id="_EFGgMACpEeu8PfWNiE3d8Q" name="position_title" allowManualResolution="true">
+            <function xmi:id="_EFGgMQCpEeu8PfWNiE3d8Q" algorithmType="Concatenate" algorithmParameters=","/>
+          </survivorshipKeys>
+        </builtInMatchRuleDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_DvFM9QCpEeu8PfWNiE3d8Q" analysisType="Match Analysis"/>
+    <contextType xmi:id="_DvFM9gCpEeu8PfWNiE3d8Q" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_wxptcCAAEeu6gu-EeR03eQ" kind="Usage" supplier="_DvFM4QCpEeu8PfWNiE3d8Q">
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mssql_2017_0.1.rep#_G3uFUSAEEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mysql_5_0.1.rep#_men-cCAAEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mysql_8_0.1.rep#_s2f0kCACEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_oracle_12_0.1.rep#_e52eESADEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_oracle_18_0.1.rep#_dp9jgCADEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_postgres_2017_0.1.rep#_TOkQwSAFEeu6gu-EeR03eQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

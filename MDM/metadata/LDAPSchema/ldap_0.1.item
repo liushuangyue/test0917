@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:LDAPSchemaConnection Aliases="always" BindPassword="enc:system.encryption.key.v1:XpZ52R80se4bCvA+GoqJX/KLIV4ZKq9Ddx205huZ34igCQ==" BindPrincipal="cn=di,dc=wyang,dc=com" CountLimit="100" EncryptionMethodName="LDAP" Filter="(&amp;(objectClass=*))" GetBaseDNsFromRoot="true" Host="192.168.31.20" Port="389" Protocol="Simple Authentication" Referrals="ignore" SavePassword="true" SelectedDN="dc=wyang,dc=com" TimeOutLimit="0" UseAuthen="true" dataPackage="_dNP94Q0lEeaZrbR4WrAZgQ" name="repository.metadataLDAPSchema" xmi:id="_dNP94A0lEeaZrbR4WrAZgQ">
+    <Value>businessCategory</Value>
+    <Value>destinationIndicator</Value>
+    <Value>description</Value>
+    <Value>extensibleObject</Value>
+    <Value>facsimileTelephoneNumber</Value>
+    <Value>internationaliSDNNumber</Value>
+    <Value>l</Value>
+    <Value>objectClass</Value>
+    <Value>objectclass</Value>
+    <Value>organizationalUnit</Value>
+    <Value>ou</Value>
+    <Value>physicalDeliveryOfficeName</Value>
+    <Value>postOfficeBox</Value>
+    <Value>postalAddress</Value>
+    <Value>postalCode</Value>
+    <Value>prefNodeName</Value>
+    <Value>preferredDeliveryMethod</Value>
+    <Value>registeredAddress</Value>
+    <Value>searchGuide</Value>
+    <Value>seeAlso</Value>
+    <Value>st</Value>
+    <Value>street</Value>
+    <Value>telephoneNumber</Value>
+    <Value>teletexTerminalIdentifier</Value>
+    <Value>telexNumber</Value>
+    <Value>top</Value>
+    <Value>userPassword</Value>
+    <Value>x121Address</Value>
+    <BaseDNs/>
+    <BaseDNs>ou=system</BaseDNs>
+    <BaseDNs>ou=config</BaseDNs>
+    <BaseDNs>ou=schema</BaseDNs>
+    <BaseDNs>dc=example,dc=com</BaseDNs>
+    <BaseDNs>dc=wyang,dc=com</BaseDNs>
+  </TalendMetadata:LDAPSchemaConnection>
+  <TalendMetadata:GenericPackage dataManager="_dNP94A0lEeaZrbR4WrAZgQ" name="repository.metadataLDAPSchema" xmi:id="_dNP94Q0lEeaZrbR4WrAZgQ">
+    <ownedElement id="_8lBugA0kEeaZrbR4WrAZgQ" label="metadata" xmi:id="_dNP94g0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="businessCategory" name="businessCategory" talendType="id_String" xmi:id="_dNP94w0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="destinationIndicator" name="destinationIndicator" talendType="id_String" xmi:id="_dNP95A0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="description" length="24" name="description" talendType="id_String" xmi:id="_dNP95Q0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="extensibleObject" name="extensibleObject" talendType="id_String" xmi:id="_dNP95g0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="facsimileTelephoneNumber" name="facsimileTelephoneNumber" talendType="id_String" xmi:id="_dNP95w0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="internationaliSDNNumber" name="internationaliSDNNumber" talendType="id_String" xmi:id="_dNP96A0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="l" name="l" talendType="id_String" xmi:id="_dNP96Q0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="objectClass" length="39" name="objectClass" talendType="id_String" xmi:id="_dNP96g0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="objectclass" length="39" name="objectclass" talendType="id_String" xmi:id="_dNP96w0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="organizationalUnit" name="organizationalUnit" talendType="id_String" xmi:id="_dNP97A0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ou" length="13" name="ou" talendType="id_String" xmi:id="_dNP97Q0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="physicalDeliveryOfficeName" name="physicalDeliveryOfficeName" talendType="id_String" xmi:id="_dNP97g0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="postOfficeBox" name="postOfficeBox" talendType="id_String" xmi:id="_dNP97w0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="postalAddress" name="postalAddress" talendType="id_String" xmi:id="_dNP98A0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="postalCode" name="postalCode" talendType="id_String" xmi:id="_dNP98Q0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="prefNodeName" length="11" name="prefNodeName" talendType="id_String" xmi:id="_dNP98g0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="preferredDeliveryMethod" name="preferredDeliveryMethod" talendType="id_String" xmi:id="_dNP98w0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="registeredAddress" name="registeredAddress" talendType="id_String" xmi:id="_dNP99A0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="searchGuide" name="searchGuide" talendType="id_String" xmi:id="_dNQk8A0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="seeAlso" name="seeAlso" talendType="id_String" xmi:id="_dNQk8Q0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="st" name="st" talendType="id_String" xmi:id="_dNQk8g0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="street" name="street" talendType="id_String" xmi:id="_dNQk8w0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="telephoneNumber" name="telephoneNumber" talendType="id_String" xmi:id="_dNQk9A0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="teletexTerminalIdentifier" name="teletexTerminalIdentifier" talendType="id_String" xmi:id="_dNQk9Q0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="telexNumber" name="telexNumber" talendType="id_String" xmi:id="_dNQk9g0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="top" name="top" talendType="id_String" xmi:id="_dNQk9w0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="userPassword" name="userPassword" talendType="id_String" xmi:id="_dNQk-A0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="x121Address" name="x121Address" talendType="id_String" xmi:id="_dNQk-Q0lEeaZrbR4WrAZgQ" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_210edfdf-ef9d-43e5-8c8b-2430fd08122e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6R1TiLJObqkvEcS1l/od9R+RHQ4KhTzYGUsVvvqxmFG015ElxY8hOOz3BO77AQJxgDtLL+XPpoE3&#13;
+M+Ym3NVYrg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e9e44b27-09c8-4435-88ea-a982dabd3125"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2qTRvweuG9+OrJYgD4XVbYHDRnn5nomFPSB9pwcDa/87P29PLhACTGcLk2Bk/C+1oS5AcgTD8Pvh&#13;
+7PuUyeUDcQ==</DigestValue></Reference></SignedInfo><SignatureValue>DxvQ0SdB9EXp8X5hWHTJC1o2BUCZet77stGL1U8L8tAoz21Rh/7xA+g+lB7MTNyxXXH71lPvGIkg&#13;
+/aAWvRL2WJd978jl3+CV/kdBguXsMxeykPFjzLDWySC+8CIc3L1UOoVCYDiGkZkewnAYQHiKj3yd&#13;
+hFIQt2DXMnAfujcEVfv6WWo0nGiXch+ovS66HzITuHxojYGCE8SR17vI9dTU9D7A8h5PsmexglG4&#13;
+jUt+0XwAoO58ovJbAEb7BVMdM2n7knA/BWGppwgGYv99jWwdyzfVrImcsfmS+viYmIuoaQXbEi6L&#13;
+m+HrfsTHSQslGeJJEWqfgvVNomG7iPi0izK8Hw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e9e44b27-09c8-4435-88ea-a982dabd3125" Target="#_210edfdf-ef9d-43e5-8c8b-2430fd08122e"><Timestamp>2021-09-09 09:27:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

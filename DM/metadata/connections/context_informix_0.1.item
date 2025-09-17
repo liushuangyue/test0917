@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="context.context_informix_AdditionalParams" ContextId="_wOwmAP6EEei7vsUP3lBf2Q" ContextMode="true" DatabaseType="Informix" DatasourceName="context.context_informix_Datasource" DbmsId="informix_id" DriverClass="com.informix.jdbc.IfxDriver" FileFieldName="" Password="context.context_informix_Password" Port="context.context_informix_Port" ProductId="INFORMIX" SID="context.context_informix_Database" SQLMode="false" ServerName="context.context_informix_Server" SqlSynthax="SQL Syntax" StandardSQL="true" URL="jdbc:informix-sqli://192.168.31.100:9088/stores_demo:informixserver=;" UiSchema="context.context_informix_Schema" Username="context.context_informix_Login" contextName="Default" dataPackage="_wdry0P6EEei7vsUP3lBf2Q" id="_ukFM4P6EEei7vsUP3lBf2Q" label="context_informix" name="context_informix" xmi:id="_ukI3QP6EEei7vsUP3lBf2Q">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_MuHbYAxIEea9iN3kjtAn2Q"/>
+    <taggedValue tag="package filter" value="" xmi:id="_Mul8gAxIEea9iN3kjtAn2Q"/>
+    <taggedValue tag="Status" value="" xmi:id="_Mul8gQxIEea9iN3kjtAn2Q"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_Mul8ggxIEea9iN3kjtAn2Q"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_Mul8gwxIEea9iN3kjtAn2Q"/>
+    <taggedValue tag="Description" value="" xmi:id="_Mul8hAxIEea9iN3kjtAn2Q"/>
+    <taggedValue tag="Author" value="" xmi:id="_Mul8hQxIEea9iN3kjtAn2Q"/>
+    <taggedValue tag="otherParameter" xmi:id="_Mul8hgxIEea9iN3kjtAn2Q"/>
+    <taggedValue tag="DB ProductName" value="Informix Dynamic Server" xmi:id="_Mv7ZQAxIEea9iN3kjtAn2Q"/>
+    <taggedValue tag="DB ProductVersion" value="12.10.FC8DE" xmi:id="_Mv7ZQQxIEea9iN3kjtAn2Q"/>
+    <taggedValue tag="DB IdentifierQuoteString" value=" " xmi:id="_Mv7ZQgxIEea9iN3kjtAn2Q"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="context.context_informix_Login" xmi:id="_MuHbYQxIEea9iN3kjtAn2Q"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_4o8ZgP6DEei7vsUP3lBf2Q"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_ukI3QP6EEei7vsUP3lBf2Q" name="stores_demo" xmi:id="_wdry0P6EEei7vsUP3lBf2Q">
+    <ownedElement name="informix" xmi:id="_wdry0f6EEei7vsUP3lBf2Q" xsi:type="orgomg.cwm.resource.relational:Schema"/>
+  </orgomg.cwm.resource.relational:Catalog>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7b5bcd06-48d2-4f98-9912-9877e9ab458a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>FLWlr7zlJw6ttVPJjZDCtA27XDfGiNwvYy4AGgUgRXckj3MvXjLmD3zzXiEgAiZLu3L1ZEhxJ/BE&#13;
+tAAkih+BSQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_af9c7adf-d6c5-446f-9d27-8f5026051d68"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Uy3ia7ouyjt0I9sNPRKvyfMBPOFOGPLkjjSGwSPYzyl5S4sUWIvrhrOzGgqZkfB2ptW+kpAkboJY&#13;
+AqYEU6tbSA==</DigestValue></Reference></SignedInfo><SignatureValue>Jx73lOR6PkwkYHlbLVhm1vok76LhM1HhWH9rrIYwG2aNI6CRc48EA5CbmrHp0Qxz5Pl0GNSLVsur&#13;
+1lL869ya32XxcpSWWICJ3aZ6MkFJ3z3LbV0+dr3zxH9O7LH9hVwuag927VJCMgwHPWd7U5rT0U2D&#13;
+8LF4aUZ6Tg97b+LTRr6O6Vv2M3FKDSF+ltdRD4ZRmJ8aN3PMcz61LQQ5LTbk+hlorE6sJ8/Y3VZV&#13;
+SgexCia0Sonqt3DI70pB0XzYyI2wS9P4pQoHXelxMKQNPO88WKqfHQCbgdTG156Gj23auN5WlxFh&#13;
+iHsXQHzgYSoMGZMxRhySMxIFi7c1Be7PlMkRWw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_af9c7adf-d6c5-446f-9d27-8f5026051d68" Target="#_7b5bcd06-48d2-4f98-9912-9877e9ab458a"><Timestamp>2021-09-09 09:21:00</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

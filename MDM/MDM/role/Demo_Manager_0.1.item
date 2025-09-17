@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><mdmserverobject:WSRoleE xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmlns:xmi="http://www.omg.org/XMI" description="[EN:Demo Manager User][FR:Utilisateur Manager Démo]" name="Demo_Manager" xmi:id="_t7VTE3dIEeGMK_tLGnzsJg" xmi:version="2.0">
+  <specification objectType="" xmi:id="_t7VTFHdIEeGMK_tLGnzsJg"/>
+  <specification objectType="Routing Engine V2" xmi:id="_t7VTFXdIEeGMK_tLGnzsJg"/>
+  <specification objectType="Service" xmi:id="_t7VTF3dIEeGMK_tLGnzsJg"/>
+  <specification objectType="Routing Rule" xmi:id="_t7VTG3dIEeGMK_tLGnzsJg">
+    <instance instanceName=".*" xmi:id="_t7VTHHdIEeGMK_tLGnzsJg"/>
+  </specification>
+  <specification objectType="Background Job" xmi:id="_t7VTHXdIEeGMK_tLGnzsJg"/>
+  <specification admin="true" objectType="Transformer Plugin" xmi:id="_t7VTHndIEeGMK_tLGnzsJg"/>
+  <specification objectType="Menu" xmi:id="_t7VTH3dIEeGMK_tLGnzsJg">
+    <instance instanceName="Datastewardship" xmi:id="_t7VTIndIEeGMK_tLGnzsJg">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+    <instance instanceName="UpdateReport" xmi:id="_t7VTKHdIEeGMK_tLGnzsJg">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+  </specification>
+  <specification admin="true" objectType="Transformer V2" xmi:id="_t7VTKXdIEeGMK_tLGnzsJg"/>
+  <specification objectType="Stored Procedure" xmi:id="_t7VTKndIEeGMK_tLGnzsJg"/>
+  <specification objectType="View" xmi:id="_t7VTK3dIEeGMK_tLGnzsJg">
+    <instance instanceName="Browse_items_.*" writable="true" xmi:id="_t7VTLHdIEeGMK_tLGnzsJg"/>
+  </specification>
+  <specification admin="true" objectType="Routing Order V2 Failed" xmi:id="_t7VTLndIEeGMK_tLGnzsJg"/>
+  <specification admin="true" objectType="Item" xmi:id="_t7VTL3dIEeGMK_tLGnzsJg"/>
+  <specification objectType="Data Model" xmi:id="_t7VTMXdIEeGMK_tLGnzsJg">
+    <instance instanceName="Product" xmi:id="_t7VTM3dIEeGMK_tLGnzsJg"/>
+  </specification>
+  <specification admin="true" objectType="Routing Order V2 Completed" xmi:id="_t7VTNndIEeGMK_tLGnzsJg"/>
+  <specification objectType="Role" xmi:id="_t7VTN3dIEeGMK_tLGnzsJg">
+    <instance instanceName=".*" xmi:id="_t7VTOHdIEeGMK_tLGnzsJg"/>
+  </specification>
+  <specification objectType="Data Cluster" xmi:id="_t7VTOXdIEeGMK_tLGnzsJg">
+    <instance instanceName="Product" xmi:id="_t7VTO3dIEeGMK_tLGnzsJg"/>
+  </specification>
+  <specification admin="true" objectType="Transformer Plugin V2" xmi:id="_t7VTPXdIEeGMK_tLGnzsJg"/>
+  <specification objectType="Configuration Info" xmi:id="_t7VTPndIEeGMK_tLGnzsJg"/>
+  <specification admin="true" objectType="Transformer" xmi:id="_t7VTP3dIEeGMK_tLGnzsJg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_db957c96-dec3-4545-9fb7-4a53ac512a48"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Lj15b+TGbVMTAcxhZOVefDM3hCGs/hwrp7jUBLBCacpGpaTbgV6pq5xByvFBgfa9eOuwyIj9qi95&#13;
+iBAohOeszA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f92e163a-6831-4e02-9972-11f832f11b65"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+yUvJ3niIXdd+B4ebzi2Og27xIsPGk7P/PmWuKW1FDEo/NR4xvOkfIo1P4Hj5w+jgFCvMDpwV2ig&#13;
+BGPTS0+6GQ==</DigestValue></Reference></SignedInfo><SignatureValue>NEWPzNhfyAPrKPkJtKzOb0PuL98+N+YzTQwD2/ZmZENBdzEKRjBGhHHOLwEWTCzP4F2BxxZdC0c8&#13;
+rxHk3Fa8YIFgaTWC+Ih5tsf091QsVX/Pgq4W/if/fr1qZzYGz8vmTZPmfSY91p/UahrW0igxmSKr&#13;
+JsZGMqoTgLZ45EZfaar5+OfNMmigQOXch8C9UnqJrzUhahmfHt51XlxLwVngWWCYc3xo0g7b7AF+&#13;
+rCctrPlC7QMA2UcA/1n+r8xUTxaSjF+5LOGa4PL+OSxJTuteZYBEw/LjWuca4W45jcl3TEAusQYt&#13;
+X3MXb1vKTrenZ+dG05OiJApCdhvm9qzQM3z2sw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f92e163a-6831-4e02-9972-11f832f11b65" Target="#_db957c96-dec3-4545-9fb7-4a53ac512a48"><Timestamp>2021-09-14 08:48:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></mdmserverobject:WSRoleE>

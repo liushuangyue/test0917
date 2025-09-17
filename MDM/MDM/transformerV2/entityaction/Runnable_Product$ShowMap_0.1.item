@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><mdmserverobject:WSTransformerV2E xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmlns:xmi="http://www.omg.org/XMI" description="[EN:Show on map][FR:Voir sur la carte]" name="Runnable_Product#ShowMap" xmi:id="_t1LnwXdIEeGMK_tLGnzsJg" xmi:version="2.0">
+  <processSteps description="Retrieve the complete item from the update report" parameters="&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;  xmlns:mdm=&quot;java:com.amalto.core.plugin.base.xslt.MdmExtension&quot; version=&quot;1.0&quot;&gt; &lt;xsl:output method=&quot;xml&quot; indent=&quot;yes&quot; omit-xml-declaration=&quot;yes&quot; /&gt; &lt;xsl:template match=&quot;/&quot; priority=&quot;1&quot;&gt;&#10;&lt;exchange&gt; &lt;report&gt;&#10; &lt;xsl:copy-of select=&quot;Update&quot;/&gt; &lt;/report&gt;  &lt;item&gt;&lt;xsl:copy-of select='mdm:getItemProjection(Update/RevisionID,Update/DataCluster,Update/Concept,Update/Key)'/&gt;&lt;/item&gt;&lt;/exchange&gt; &lt;/xsl:template&gt; &lt;/xsl:stylesheet&gt;&#10;" pluginJNDI="amalto/local/transformer/plugin/xslt" xmi:id="_t1LnwndIEeGMK_tLGnzsJg">
+    <inputMappings pipelineVariable="_DEFAULT_" pluginVariable="xml" xmi:id="_t1Lnw3dIEeGMK_tLGnzsJg"/>
+    <outputMappings pipelineVariable="item_xml" pluginVariable="text" xmi:id="_t1LnxHdIEeGMK_tLGnzsJg"/>
+  </processSteps>
+  <processSteps description="Escape the item XML" parameters="&lt;parameters&gt;&#10;&lt;method&gt;DECODE&lt;/method&gt;&#10;&lt;algorithm&gt;XMLESCAPE&lt;/algorithm&gt;&#10;&lt;/parameters&gt;&#10;" pluginJNDI="amalto/local/transformer/plugin/codec" xmi:id="_t1LnxXdIEeGMK_tLGnzsJg">
+    <inputMappings pipelineVariable="item_xml" pluginVariable="law_text" xmi:id="_t1LnxndIEeGMK_tLGnzsJg"/>
+    <outputMappings pipelineVariable="decode_xml" pluginVariable="codec_text" xmi:id="_t1Lnx3dIEeGMK_tLGnzsJg"/>
+  </processSteps>
+  <processSteps description="Invoke the job" parameters="&lt;configuration&gt;&#10;  &lt;url&gt;ltj://ShowStoreMap/0.1&lt;/url&gt;&#10;  &lt;contextParam&gt;&#10;    &lt;name&gt;exchangeMessage&lt;/name&gt;&#10;    &lt;value&gt;{decode_xml}&lt;/value&gt;&#10;  &lt;/contextParam&gt;&#10;&lt;/configuration&gt;" pluginJNDI="amalto/local/transformer/plugin/callJob" xmi:id="_t1LnyHdIEeGMK_tLGnzsJg">
+    <inputMappings pipelineVariable="decode_xml" pluginVariable="text" xmi:id="_t1LnyXdIEeGMK_tLGnzsJg"/>
+    <outputMappings pipelineVariable="output_url" pluginVariable="result" xmi:id="_t1LnyndIEeGMK_tLGnzsJg"/>
+  </processSteps>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0e9c3a8c-7f08-41c8-96a9-d6bda75eb057"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RGgnYfp4ScbPspjYu7N/FzJf6y4FZwDU9XetMVxdFKRSrpkVtx9aAgovYODcYi/6wLyNnijUk3Jt&#13;
+ePQSypq5rA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e27ff12d-3a3f-4397-a734-f3c4a0a83d54"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VP9oubAXxgD7ouWH43jdfH5sT7pdzOQQDKYbRFZZ4KHX0Jwpr2KJpMBk6bnD0zhF2xUJgEjDJpt6&#13;
+KUfZFHjRuQ==</DigestValue></Reference></SignedInfo><SignatureValue>Xpmei/Av6uCaOE/8FRkcu8txs17dh/m+zlX173krU4SEHNfTalZi+ADSPpKGrfF1XWn8mXm3iNBS&#13;
+dfwvAsTmssnIQQyioE6wotcOLMFz9iPMsZxQ4j5JUyU/auWdp74g/woggDnEkbRov1ki1GCTwEgo&#13;
+6l0caYG0Y3/Gu3bCeB2qSgd8aWEdZHfx3ePP9qL1fjwfk8FCEH9Wzvy/X500XquHkYzDTrxZ3srq&#13;
+VywNDbY0gdxBkY/WhP/ZOC7RaThYZNjGBzFifFxx5eq2bXIn6dBKdF2dd2xJEOH0pE26Cl9gWxZY&#13;
+lHdYlHAWpI3Ye6T18S5mOFssDQGlegonYWNwaQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e27ff12d-3a3f-4397-a734-f3c4a0a83d54" Target="#_0e9c3a8c-7f08-41c8-96a9-d6bda75eb057"><Timestamp>2021-09-14 08:47:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></mdmserverobject:WSTransformerV2E>

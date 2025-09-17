@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_cVqaIDhZEeuvdtrTrcB2qQ" name="column_sql_mysql_wrongWehre" creationDate="2020-12-07T14:57:16.993+0800">
+  <clientDependency href="../Analyses/column_sql_mysql_wrongWehre_0.1.ana#_cVrBMDhZEeuvdtrTrcB2qQ"/>
+  <taggedValue xmi:id="_cVqaIThZEeuvdtrTrcB2qQ" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_cVqaIjhZEeuvdtrTrcB2qQ" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_cVqaIzhZEeuvdtrTrcB2qQ" tag="REP_DBINFO_DBVERSION" value="MYSQL_8"/>
+  <taggedValue xmi:id="_cVqaJDhZEeuvdtrTrcB2qQ" tag="REP_DBINFO_HOST" value="localhost"/>
+  <taggedValue xmi:id="_cVqaJThZEeuvdtrTrcB2qQ" tag="REP_DBINFO_PORT" value="3306"/>
+  <taggedValue xmi:id="_cVqaJjhZEeuvdtrTrcB2qQ" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_cVqaJzhZEeuvdtrTrcB2qQ" tag="REP_DBINFO_DBNAME" value="yzhao_0219_a"/>
+  <taggedValue xmi:id="_cVqaKDhZEeuvdtrTrcB2qQ" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_cVqaKThZEeuvdtrTrcB2qQ" tag="REP_DBINFO_USER" value="root"/>
+  <taggedValue xmi:id="_cVqaKjhZEeuvdtrTrcB2qQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:DPuxh/pl5ridIhP5NXCY9sCNARWVcMVWjBBwKcF9XhI="/>
+  <taggedValue xmi:id="_cVqaKzhZEeuvdtrTrcB2qQ" tag="REP_DBINFO_PARAMETER" value="characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_cVqaLDhZEeuvdtrTrcB2qQ" tag="REP_DBINFO_URL" value="jdbc:mysql://localhost:3306/yzhao_0219_a?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_cVqaLThZEeuvdtrTrcB2qQ" tag="REP_DBINFO_DRIVER" value="com.mysql.cj.jdbc.Driver"/>
+  <taggedValue xmi:id="_cVqaLjhZEeuvdtrTrcB2qQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
+  <taggedValue xmi:id="_cVqaLzhZEeuvdtrTrcB2qQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_cVqaMDhZEeuvdtrTrcB2qQ" tag="Author" value="user@talend.com"/>
+  <analysisMap xmi:id="_cVqaMThZEeuvdtrTrcB2qQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/column_sql_mysql_wrongWehre_0.1.ana#_YgDagDhZEeuvdtrTrcB2qQ"/>
+  </analysisMap>
+</dataquality.reports:TdReport>

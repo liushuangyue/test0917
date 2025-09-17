@@ -1,0 +1,26 @@
+{
+  "itemId" : "_4cIc8DhWEeuvdtrTrcB2qQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_7rR5gDhWEeuvdtrTrcB2qQ",
+    "parameterList" : [ {
+      "id" : "_7rt-YThWEeuvdtrTrcB2qQ",
+      "name" : "kkkk_Password"
+    }, {
+      "id" : "_7rt-YjhWEeuvdtrTrcB2qQ",
+      "name" : "kkkk_Server"
+    }, {
+      "id" : "_7rt-YzhWEeuvdtrTrcB2qQ",
+      "name" : "kkkk_Database"
+    }, {
+      "id" : "_7rt-ZDhWEeuvdtrTrcB2qQ",
+      "name" : "kkkk_AdditionalParams"
+    }, {
+      "id" : "_7rt-ZThWEeuvdtrTrcB2qQ",
+      "name" : "kkkk_Login"
+    }, {
+      "id" : "_7rt-ZjhWEeuvdtrTrcB2qQ",
+      "name" : "kkkk_Port"
+    } ]
+  } ]
+}

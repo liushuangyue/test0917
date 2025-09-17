@@ -1,0 +1,20 @@
+{
+  "itemId" : "_ze5Jc3cgEeGZwOt3YRqzPw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_D8vDQIUeEeC82sy-hyJXEw",
+    "parameterList" : [ {
+      "id" : "_cg5ioRU4EeykGrkZPGv9FQ",
+      "name" : "host"
+    }, {
+      "id" : "_cg5iohU4EeykGrkZPGv9FQ",
+      "name" : "port"
+    }, {
+      "id" : "_cg5ioxU4EeykGrkZPGv9FQ",
+      "name" : "user"
+    }, {
+      "id" : "_cg5ipBU4EeykGrkZPGv9FQ",
+      "name" : "password"
+    } ]
+  } ]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <dataquality.analysis:Analysis xmi:id="_eYIkkQCoEeu8PfWNiE3d8Q" name="catalog_mysql_1" supplierDependency="_ww-YACAAEeu6gu-EeR03eQ" creationDate="2020-09-27T18:01:55.800+0800" defaultContext="Default">
+    <clientDependency href="../../../metadata/connections/mysql_tbi_0.1.item#_l-4I8ACnEeu8PfWNiE3d8Q"/>
+    <taggedValue xmi:id="_eYIkkgCoEeu8PfWNiE3d8Q" tag="Status" value="development"/>
+    <taggedValue xmi:id="_eYIkkwCoEeu8PfWNiE3d8Q" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_eYIklACoEeu8PfWNiE3d8Q" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_eYIklQCoEeu8PfWNiE3d8Q" tag="Description" value=""/>
+    <taggedValue xmi:id="_eYIklgCoEeu8PfWNiE3d8Q" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_f5-x0QCoEeu8PfWNiE3d8Q" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_f5_Y4ACoEeu8PfWNiE3d8Q" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_eYIklwCoEeu8PfWNiE3d8Q">
+      <connection href="../../../metadata/connections/mysql_tbi_0.1.item#_c6RU4ACnEeu8PfWNiE3d8Q"/>
+      <analysedElements xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../../metadata/connections/mysql_tbi_0.1.item#_c8DdkACnEeu8PfWNiE3d8Q"/>
+    </context>
+    <results xmi:id="_eYIkmACoEeu8PfWNiE3d8Q">
+      <resultMetadata xmi:id="_eYIkmQCoEeu8PfWNiE3d8Q" executionDate="2020-11-10T20:25:13.137+0800" executionDuration="287" message="" executionNumber="18" lastRunOk="true" lastExecutionNumberOk="18"/>
+      <indicators xsi:type="dataquality.indicators.schema:CatalogIndicator" xmi:id="_eYIkmgCoEeu8PfWNiE3d8Q" computed="true" tableCount="1" keyCount="1" indexCount="1" viewCount="1" tableRowCount="3634" viewRowCount="3634">
+        <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../../metadata/connections/mysql_tbi_0.1.item#_c8DdkACnEeu8PfWNiE3d8Q"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+        <tableIndicators xmi:id="_yELGYCNPEeuOtYZkoE1XZg" rowCount="3634" tableName="customer" keyCount="1" indexCount="1">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+        </tableIndicators>
+        <viewIndicators xmi:id="_yEOJsCNPEeuOtYZkoE1XZg" rowCount="3634" tableName="view_customer">
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+        </viewIndicators>
+      </indicators>
+    </results>
+    <parameters xmi:id="_eYIkmwCoEeu8PfWNiE3d8Q" dataFilter="_f5_Y4QCoEeu8PfWNiE3d8Q" analysisType="Catalog Analysis"/>
+    <contextType xmi:id="_f5-x0ACoEeu8PfWNiE3d8Q" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_ww-YACAAEeu6gu-EeR03eQ" kind="Usage" supplier="_eYIkkQCoEeu8PfWNiE3d8Q">
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mssql_2017_0.1.rep#_G3uFUSAEEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mysql_5_0.1.rep#_men-cCAAEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mysql_8_0.1.rep#_s2f0kCACEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_oracle_12_0.1.rep#_e52eESADEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_oracle_18_0.1.rep#_dp9jgCADEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_postgres_2017_0.1.rep#_TOkQwSAFEeu6gu-EeR03eQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+  <dataquality.domain:Domain xmi:id="_f5_Y4QCoEeu8PfWNiE3d8Q" name="Analysis Data Filter" patterns="_f5_Y4gCoEeu8PfWNiE3d8Q _f5_Y5QCoEeu8PfWNiE3d8Q">
+    <ownedElement xsi:type="dataquality.domain.pattern:Pattern" xmi:id="_f5_Y4gCoEeu8PfWNiE3d8Q" name="Table Pattern">
+      <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_f5_Y4wCoEeu8PfWNiE3d8Q">
+        <expression xmi:id="_f5_Y5ACoEeu8PfWNiE3d8Q" body="customer"/>
+      </components>
+    </ownedElement>
+    <ownedElement xsi:type="dataquality.domain.pattern:Pattern" xmi:id="_f5_Y5QCoEeu8PfWNiE3d8Q" name="View Pattern">
+      <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_f5_Y5gCoEeu8PfWNiE3d8Q">
+        <expression xmi:id="_f5_Y5wCoEeu8PfWNiE3d8Q" body="view%"/>
+      </components>
+    </ownedElement>
+  </dataquality.domain:Domain>
+</xmi:XMI>

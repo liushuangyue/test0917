@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_BsU-UH5kEem18_1sSKUcsA">
+    <contextParameter comment="" name="TdqContext_Password" prompt="TdqContext_Password?" promptNeeded="false" type="id_Password" value="faZIuvge8jjedbyE5WrYwA==" xmi:id="_BsU-UX5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_DbName" prompt="TdqContext_DbName?" promptNeeded="false" type="id_String" value="talend" xmi:id="_BsU-Un5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_User" prompt="TdqContext_User?" promptNeeded="false" type="id_String" value="talend" xmi:id="_BsU-U35kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_OutputFolder" prompt="TdqContext_OutputFolder?" promptNeeded="false" type="id_Directory" value="/tmp/hive_clean/" xmi:id="_BsU-VH5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_Host" prompt="TdqContext_Host?" promptNeeded="false" type="id_String" value="mud-staging-mysql-cluster-393-master.staging.hulu.com" xmi:id="_BsU-VX5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_Port" prompt="TdqContext_Port?" promptNeeded="false" type="id_Integer" value="3306" xmi:id="_BsU-Vn5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_LogoFile" prompt="TdqContext_LogoFile?" promptNeeded="false" type="id_File" value="" xmi:id="_BsU-V35kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_Schema" prompt="TdqContext_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_BsU-WH5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="where_clause" prompt="where_clause?" promptNeeded="false" type="id_String" value="" xmi:id="_BsU-WX5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="analysis_file" prompt="analysis_file?" promptNeeded="false" type="id_String" value="" xmi:id="_BsU-Wn5kEem18_1sSKUcsA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Production" xmi:id="_BsU-W35kEem18_1sSKUcsA">
+    <contextParameter comment="" name="TdqContext_Password" prompt="TdqContext_Password?" promptNeeded="false" type="id_Password" value="faZIuvge8jjedbyE5WrYwA==" xmi:id="_BsU-XH5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_DbName" prompt="TdqContext_DbName?" promptNeeded="false" type="id_String" value="talend" xmi:id="_BsU-XX5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_User" prompt="TdqContext_User?" promptNeeded="false" type="id_String" value="talend" xmi:id="_BsU-Xn5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_OutputFolder" prompt="TdqContext_OutputFolder?" promptNeeded="false" type="id_Directory" value="/tmp/hive_clean/" xmi:id="_BsU-X35kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_Host" prompt="TdqContext_Host?" promptNeeded="false" type="id_String" value="mud-prod-cluster-135-master.prod.hulu.com" xmi:id="_BsU-YH5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_Port" prompt="TdqContext_Port?" promptNeeded="false" type="id_Integer" value="3306" xmi:id="_BsU-YX5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_LogoFile" prompt="TdqContext_LogoFile?" promptNeeded="false" type="id_File" value="" xmi:id="_BsU-Yn5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_Schema" prompt="TdqContext_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_BsU-Y35kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="where_clause" prompt="where_clause?" promptNeeded="false" type="id_String" value="" xmi:id="_BsU-ZH5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="analysis_file" prompt="analysis_file?" promptNeeded="false" type="id_String" value="" xmi:id="_BsU-ZX5kEem18_1sSKUcsA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Staging" xmi:id="_BsU-Zn5kEem18_1sSKUcsA">
+    <contextParameter comment="" name="TdqContext_Password" prompt="TdqContext_Password?" promptNeeded="false" type="id_Password" value="faZIuvge8jjedbyE5WrYwA==" xmi:id="_BsU-Z35kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_DbName" prompt="TdqContext_DbName?" promptNeeded="false" type="id_String" value="talend" xmi:id="_BsU-aH5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_User" prompt="TdqContext_User?" promptNeeded="false" type="id_String" value="talend" xmi:id="_BsU-aX5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_OutputFolder" prompt="TdqContext_OutputFolder?" promptNeeded="false" type="id_Directory" value="/tmp/hive_clean/" xmi:id="_BsU-an5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_Host" prompt="TdqContext_Host?" promptNeeded="false" type="id_String" value="mud-staging-cluster-177-master.staging.hulu.com" xmi:id="_BsU-a35kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_Port" prompt="TdqContext_Port?" promptNeeded="false" type="id_Integer" value="3306" xmi:id="_BsU-bH5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_LogoFile" prompt="TdqContext_LogoFile?" promptNeeded="false" type="id_File" value="" xmi:id="_BsU-bX5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_Schema" prompt="TdqContext_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_BsU-bn5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="where_clause" prompt="where_clause?" promptNeeded="false" type="id_String" value="" xmi:id="_BsU-b35kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="analysis_file" prompt="analysis_file?" promptNeeded="false" type="id_String" value="" xmi:id="_BsU-cH5kEem18_1sSKUcsA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_BsU-cX5kEem18_1sSKUcsA">
+    <contextParameter comment="" name="TdqContext_Password" prompt="TdqContext_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:ka5zZjMPNb62Y5FImloDqM3CRtRMp8UvJSeysOWAj6wkdG5NQGlM" xmi:id="_BsU-cn5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_DbName" prompt="TdqContext_DbName?" promptNeeded="false" type="id_String" value="talend" xmi:id="_BsU-c35kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_User" prompt="TdqContext_User?" promptNeeded="false" type="id_String" value="talend" xmi:id="_BsU-dH5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_OutputFolder" prompt="TdqContext_OutputFolder?" promptNeeded="false" type="id_Directory" value="/tmp/hive_clean/" xmi:id="_BsU-dX5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_Host" prompt="TdqContext_Host?" promptNeeded="false" type="id_String" value="mud-staging-mysql-cluster-393-master.staging.hulu.com" xmi:id="_BsU-dn5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_Port" prompt="TdqContext_Port?" promptNeeded="false" type="id_Integer" value="3306" xmi:id="_BsU-d35kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_LogoFile" prompt="TdqContext_LogoFile?" promptNeeded="false" type="id_File" value="" xmi:id="_BsU-eH5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="TdqContext_Schema" prompt="TdqContext_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_BsU-eX5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="where_clause" prompt="where_clause?" promptNeeded="false" type="id_String" value="" xmi:id="_BsU-en5kEem18_1sSKUcsA"/>
+    <contextParameter comment="" name="analysis_file" prompt="analysis_file?" promptNeeded="false" type="id_String" value="" xmi:id="_BsU-e35kEem18_1sSKUcsA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_186066dc-5e6a-4313-beb5-f97f30065f4a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>6pgfkX7ox267FhhAG5PHsAg4EMSwcRfK1aYN47ncX4NwozJpzhzGPNhv4XzP/bltrMFIQTyGHR/V&#13;
+Dr92lD29zg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5b1dd4f5-66ee-4a3e-85dd-ac03890b7296"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Cfcfm3MUwgI6NQ8TFjrlT3O9Zxv7sj47P40AJ5dkEpJ1kxgeh5jK6E8WIGJ20ssctyRCcZEwig8h&#13;
+8VW8EI956w==</DigestValue></Reference></SignedInfo><SignatureValue>I9x1IHk3/mP7Ha+ByVgtfyelXcFrRTx6dlKnWD4tJF2PsKVmJKe80HvhkeDDtl9IKsaJM6zDd246&#13;
+BUpd9itro7POBZbVqz3PG+eCpYAa0PjY/2aSZOY+3kXhte5TLBVe1Qefc2F6GYWSf/MejFWnRT+V&#13;
+qkmS0Q4l02ATsv/0diuwD2DLzZj5hdPNuuIUXLSfrZ2T6/CC7yPFkolfj5xC/bWeWU1wHF7El86A&#13;
+Frbs0tij6cPYFwPw/zaY79Ji1H6NkYT7ZybtiP3ZxDlX3tbr6F8Rh9WNVlPq6++yO/9N7CKjLnsO&#13;
++Zpue/d1lWfjDqgjt1AjPpwtsos4xNljVBM8IQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5b1dd4f5-66ee-4a3e-85dd-ac03890b7296" Target="#_186066dc-5e6a-4313-beb5-f97f30065f4a"><Timestamp>2020-11-10 12:01:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

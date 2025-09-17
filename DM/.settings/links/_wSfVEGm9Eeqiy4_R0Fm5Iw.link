@@ -1,0 +1,26 @@
+{
+  "itemId" : "_wSfVEGm9Eeqiy4_R0Fm5Iw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_5faXoGm9Eeqiy4_R0Fm5Iw",
+    "parameterList" : [ {
+      "id" : "_zN1g8cQgEeuhe9YyUiV5_w",
+      "name" : "context_jdbc_oracle_MappingFile"
+    }, {
+      "id" : "_zN1g8sQgEeuhe9YyUiV5_w",
+      "name" : "context_jdbc_oracle_DriverJar"
+    }, {
+      "id" : "_zN1g88QgEeuhe9YyUiV5_w",
+      "name" : "context_jdbc_oracle_ClassName"
+    }, {
+      "id" : "_zN1g9MQgEeuhe9YyUiV5_w",
+      "name" : "context_jdbc_oracle_Login"
+    }, {
+      "id" : "_zN1g9cQgEeuhe9YyUiV5_w",
+      "name" : "context_jdbc_oracle_Password"
+    }, {
+      "id" : "_zN1g9sQgEeuhe9YyUiV5_w",
+      "name" : "context_jdbc_oracle_JdbcUrl"
+    } ]
+  } ]
+}

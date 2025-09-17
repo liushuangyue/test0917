@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="noDatetimeStringSync=true" DatabaseType="MySQL" DatasourceName="" DbmsId="mysql_id" DriverClass="org.gjt.mm.mysql.Driver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:NxjU48tM1zFedYrnsnfKTLK0ERsno0lJCGOKeakxHPYffw==" Port="3305" ProductId="MYSQL" SID="yzhao721_1116" SQLMode="false" ServerName="tdq.db.server" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:mysql://tdq.db.server:3305/yzhao721_1116?noDatetimeStringSync=true" UiSchema="" Username="root" dataPackage="_DnSSjiAIEeu6gu-EeR03eQ" dbVersionString="MYSQL_5" id="_QiALkB__Eeu6gu-EeR03eQ" label="mysql_5_docker" name="mysql_5_docker" xmi:id="_VnNx4B__Eeu6gu-EeR03eQ">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_VnNx4R__Eeu6gu-EeR03eQ"/>
+    <taggedValue tag="package filter" value="" xmi:id="_VnnagB__Eeu6gu-EeR03eQ"/>
+    <taggedValue tag="Status" value="" xmi:id="_VnnagR__Eeu6gu-EeR03eQ"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_Vnnagh__Eeu6gu-EeR03eQ"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_Vnnagx__Eeu6gu-EeR03eQ"/>
+    <taggedValue tag="Description" value="" xmi:id="_VnnahB__Eeu6gu-EeR03eQ"/>
+    <taggedValue tag="Author" value="" xmi:id="_VnnahR__Eeu6gu-EeR03eQ"/>
+    <taggedValue tag="otherParameter" xmi:id="_Vnnahh__Eeu6gu-EeR03eQ"/>
+    <taggedValue tag="DB ProductName" value="MySQL" xmi:id="_Vnv9YB__Eeu6gu-EeR03eQ"/>
+    <taggedValue tag="DB ProductVersion" value="5.7.26" xmi:id="_Vnv9YR__Eeu6gu-EeR03eQ"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="`" xmi:id="_Vnv9Yh__Eeu6gu-EeR03eQ"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="root" xmi:id="_VnNx4h__Eeu6gu-EeR03eQ"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_Bv56ICAIEeu6gu-EeR03eQ"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_VnNx4B__Eeu6gu-EeR03eQ" name="yzhao721_1116" xmi:id="_DnSSjiAIEeu6gu-EeR03eQ">
+    <ownedElement label="TDQ_V_ALL_RUN_ANALYSIS" name="TDQ_V_ALL_RUN_ANALYSIS" tableType="VIEW" xmi:id="_EFsFwCAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsFwSAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_ALL_RUN_MATCH_ANALYSIS" name="TDQ_V_ALL_RUN_MATCH_ANALYSIS" tableType="VIEW" xmi:id="_EFsFwiAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsFwyAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_ALL_RUN_OVERVIEW_ANALY" name="TDQ_V_ALL_RUN_OVERVIEW_ANALY" tableType="VIEW" xmi:id="_EFsFxCAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsFxSAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_ANALYSIS" name="TDQ_V_ANALYSIS" tableType="VIEW" xmi:id="_EFsFxiAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsFxyAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_ANALYZED_ELEMENT" name="TDQ_V_ANALYZED_ELEMENT" tableType="VIEW" xmi:id="_EFsFyCAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsFySAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_INDICATOR_DEFINITION" name="TDQ_V_INDICATOR_DEFINITION" tableType="VIEW" xmi:id="_EFsFyiAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsFyyAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_IND_HISTO" name="TDQ_V_IND_HISTO" tableType="VIEW" xmi:id="_EFsFzCAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsFzSAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_LAST_ANALYSIS" name="TDQ_V_LAST_ANALYSIS" tableType="VIEW" xmi:id="_EFsFziAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsFzyAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_LAST_ANALYSIS_EXEC" name="TDQ_V_LAST_ANALYSIS_EXEC" tableType="VIEW" xmi:id="_EFsF0CAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsF0SAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_LAST_ANALYZED_ELEMENT" name="TDQ_V_LAST_ANALYZED_ELEMENT" tableType="VIEW" xmi:id="_EFsF0iAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsF0yAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_LAST_INDICATOR_DEF" name="TDQ_V_LAST_INDICATOR_DEF" tableType="VIEW" xmi:id="_EFsF1CAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsF1SAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_LAST_MATCH_ANALYSIS_EXEC" name="TDQ_V_LAST_MATCH_ANALYSIS_EXEC" tableType="VIEW" xmi:id="_EFsF1iAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsF1yAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_LAST_OVERVIEW_ANALY_EXEC" name="TDQ_V_LAST_OVERVIEW_ANALY_EXEC" tableType="VIEW" xmi:id="_EFsF2CAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsF2SAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_LAST_RUN_ANALYSIS" name="TDQ_V_LAST_RUN_ANALYSIS" tableType="VIEW" xmi:id="_EFsF2iAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsF2yAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_LAST_RUN_MATCH_ANALYSIS" name="TDQ_V_LAST_RUN_MATCH_ANALYSIS" tableType="VIEW" xmi:id="_EFsF3CAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsF3SAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_LAST_RUN_OVERVIEW_ANALY" name="TDQ_V_LAST_RUN_OVERVIEW_ANALY" tableType="VIEW" xmi:id="_EFsF3iAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsF3yAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_OLAP_SIMPL_INDICATOR" name="TDQ_V_OLAP_SIMPL_INDICATOR" tableType="VIEW" xmi:id="_EFsF4CAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsF4SAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_OLAP_SUMMARY_INDICATOR" name="TDQ_V_OLAP_SUMMARY_INDICATOR" tableType="VIEW" xmi:id="_EFsF4iAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsF4yAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_OLAP_TEXTSTAT_INDICATOR" name="TDQ_V_OLAP_TEXTSTAT_INDICATOR" tableType="VIEW" xmi:id="_EFsF5CAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsF5SAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement label="TDQ_V_SIMPLE_INDICS" name="TDQ_V_SIMPLE_INDICS" tableType="VIEW" xmi:id="_EFsF5iAIEeu6gu-EeR03eQ" xsi:type="relational:TdView">
+      <taggedValue tag="Comment" value="VIEW" xmi:id="_EFsF5yAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EI7nACAIEeu6gu-EeR03eQ" label="TDQ_ANALYSIS" name="TDQ_ANALYSIS" tableType="TABLE" xmi:id="_EJC7wiAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="The analysis instance in a report" xmi:id="_EJC7wyAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EI8OECAIEeu6gu-EeR03eQ" label="TDQ_ANALYZED_ELEMENT" name="TDQ_ANALYZED_ELEMENT" tableType="TABLE" xmi:id="_EJC7xCAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="the analyzed element (mainly a column)" xmi:id="_EJC7xSAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EI81ICAIEeu6gu-EeR03eQ" label="TDQ_ANALYZED_SET" name="TDQ_ANALYZED_SET" tableType="TABLE" xmi:id="_EJC7xiAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Mapping table between indicator and analyzed element sets" xmi:id="_EJC7xyAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EI9cMCAIEeu6gu-EeR03eQ" label="TDQ_CALENDAR" name="TDQ_CALENDAR" tableType="TABLE" xmi:id="_EJC7yCAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="The date dimension" xmi:id="_EJC7ySAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EI9cMSAIEeu6gu-EeR03eQ" label="TDQ_DAY_TIME" name="TDQ_DAY_TIME" tableType="TABLE" xmi:id="_EJC7yiAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="the day time dimension (hours, minutes)" xmi:id="_EJC7yyAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EI-DQCAIEeu6gu-EeR03eQ" label="TDQ_GROUP_STATISTICS" name="TDQ_GROUP_STATISTICS" tableType="TABLE" xmi:id="_EJC7zCAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Fact table of stores the group statistics results of the matching analyses" xmi:id="_EJC7zSAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EI-qUCAIEeu6gu-EeR03eQ" label="TDQ_INDICATOR_DEFINITION" name="TDQ_INDICATOR_DEFINITION" tableType="TABLE" xmi:id="_EJC7ziAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="the indicator definition (Row count, Frequency table...)" xmi:id="_EJC7zyAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EI_RYCAIEeu6gu-EeR03eQ" label="TDQ_INDICATOR_OPTIONS" name="TDQ_INDICATOR_OPTIONS" tableType="TABLE" xmi:id="_EJC70CAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="the options used by indicators" xmi:id="_EJC70SAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EI_4cCAIEeu6gu-EeR03eQ" label="TDQ_INDICATOR_VALUE" name="TDQ_INDICATOR_VALUE" tableType="TABLE" xmi:id="_EJC70iAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="the value of the indicator" xmi:id="_EJC70yAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EJAfgCAIEeu6gu-EeR03eQ" label="TDQ_MATCHING_INDVALUE" name="TDQ_MATCHING_INDVALUE" tableType="TABLE" xmi:id="_EJC71CAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Fact table of stores the results of the matching analyses" xmi:id="_EJC71SAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EJAfgSAIEeu6gu-EeR03eQ" label="TDQ_MATCH_INDVALUE" name="TDQ_MATCH_INDVALUE" tableType="TABLE" xmi:id="_EJC71iAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Fact table of the comparison analyses" xmi:id="_EJC71yAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EJBGkCAIEeu6gu-EeR03eQ" label="TDQ_MIGRATION" name="TDQ_MIGRATION" tableType="TABLE" xmi:id="_EJC72CAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="information of migration" xmi:id="_EJC72SAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EJBtoCAIEeu6gu-EeR03eQ" label="TDQ_OVERVIEW_INDVALUE" name="TDQ_OVERVIEW_INDVALUE" tableType="TABLE" xmi:id="_EJC72iAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Fact table for table, schema, catalog overview indicator" xmi:id="_EJC72yAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EJBtoSAIEeu6gu-EeR03eQ" label="TDQ_PRODUCT" name="TDQ_PRODUCT" tableType="TABLE" xmi:id="_EJC73CAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="information about the used TDQ platform" xmi:id="_EJC73SAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EJCUsCAIEeu6gu-EeR03eQ" label="TDQ_SET_INDVALUE" name="TDQ_SET_INDVALUE" tableType="TABLE" xmi:id="_EJC73iAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Fact table of indicators measuring a set of columns" xmi:id="_EJC73yAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EJC7wCAIEeu6gu-EeR03eQ" label="TDQ_TABLE_ANALYZED_SET" name="TDQ_TABLE_ANALYZED_SET" tableType="TABLE" xmi:id="_EJC74CAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Relation table for ANALYZED_ELEMENT and TDQ_SET_INDVALUE" xmi:id="_EJC74SAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+    <ownedElement id="_EJC7wSAIEeu6gu-EeR03eQ" label="TDQ_VALUES" name="TDQ_VALUES" tableType="TABLE" xmi:id="_EJC74iAIEeu6gu-EeR03eQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="listing the value when frequency table indicator is computed" xmi:id="_EJC74yAIEeu6gu-EeR03eQ"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4b9bba3b-1ac2-40d6-9751-99dc5c4958a4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1xKtCt0y7e050BVU0r39qgKdQHP+1Iz9bobrYuq582wEVJI++lFbVHbL6E8eXolgBpD2MzUILiut&#13;
+x/49+ByYjA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6edbbd85-d7ad-492c-a8f6-74e55b2138fa"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CuCZuQkU12sea9w8o+Ttx4N5MAfWzxIkfy9aud3EgpLP2Ug5Sy2XeMOjOJMk0sOjFjuvWc3/+C4V&#13;
+G4+D2yynNw==</DigestValue></Reference></SignedInfo><SignatureValue>L3gG7jxB16mXm0e493LhVN9fPvuFvlY9WJibd4HiOK9DcXkjG/CN84uFJF9a2FFo6KUXmVV+ihda&#13;
+aL3FggyXtVo7XPTROSB3pX8MJJUBt2N2XvyCI1s3NEzWj7tTX1dmocHiRHWY4GVnPMUGYZbuwCL9&#13;
+6S+UhgryJ5rEROKBiScE1SqvChJNooYlZCjwKta6Xz+aBBjtHIQ7vY0UPBDmDqJCFY7DVDqio2f5&#13;
+AnsmcQ1hYzL0fitqdqYbTy+zJ3ZW0KlBncHYd2x6mXb1kS/iU4SYBK5dYhsqE21georJSPbpCBir&#13;
+8uVnvVZ2I7PRegeWl22oWebX2E8jd7ntu4Er7A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6edbbd85-d7ad-492c-a8f6-74e55b2138fa" Target="#_4b9bba3b-1ac2-40d6-9751-99dc5c4958a4"><Timestamp>2020-11-10 12:01:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

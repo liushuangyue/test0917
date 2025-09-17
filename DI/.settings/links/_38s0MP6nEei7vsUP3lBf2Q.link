@@ -1,0 +1,23 @@
+{
+  "itemId" : "_38s0MP6nEei7vsUP3lBf2Q",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Q9Ak4P6FEei7vsUP3lBf2Q",
+    "parameterList" : [ {
+      "id" : "_0L-AQcToEeu-KPmAp8s1Mw",
+      "name" : "context_teradata_Server"
+    }, {
+      "id" : "_0L-AQsToEeu-KPmAp8s1Mw",
+      "name" : "context_teradata_AdditionalParams"
+    }, {
+      "id" : "_0L-AQ8ToEeu-KPmAp8s1Mw",
+      "name" : "context_teradata_Database"
+    }, {
+      "id" : "_0L-ARMToEeu-KPmAp8s1Mw",
+      "name" : "context_teradata_Login"
+    }, {
+      "id" : "_0L-ARcToEeu-KPmAp8s1Mw",
+      "name" : "context_teradata_Password"
+    } ]
+  } ]
+}

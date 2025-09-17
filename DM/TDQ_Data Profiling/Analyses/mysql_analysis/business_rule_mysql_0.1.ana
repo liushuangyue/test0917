@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:dataquality.reports="http://dataquality.reports" xmlns:dataquality.rules="http://dataquality.rules" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_4HSqYQCoEeu8PfWNiE3d8Q" name="business_rule_mysql" supplierDependency="_ww4RYCAAEeu6gu-EeR03eQ" creationDate="2020-09-27T18:04:48.518+0800" defaultContext="Default">
+    <clientDependency href="../../../metadata/connections/mysql_tbi_0.1.item#_l-4I8ACnEeu8PfWNiE3d8Q"/>
+    <clientDependency href="../../../TDQ_Libraries/Rules/SQL/employee_rules_0.1.rules#_764OUAE4EeuPPfzvebcVSA"/>
+    <taggedValue xmi:id="_4HSqYgCoEeu8PfWNiE3d8Q" tag="Status" value="development"/>
+    <taggedValue xmi:id="_4HSqYwCoEeu8PfWNiE3d8Q" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_4HSqZACoEeu8PfWNiE3d8Q" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_4HSqZQCoEeu8PfWNiE3d8Q" tag="Description" value=""/>
+    <taggedValue xmi:id="_4HSqZgCoEeu8PfWNiE3d8Q" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_8yVdMQCoEeu8PfWNiE3d8Q" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_8yWEQACoEeu8PfWNiE3d8Q" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_4HSqZwCoEeu8PfWNiE3d8Q">
+      <connection href="../../../metadata/connections/mysql_tbi_0.1.item#_c6RU4ACnEeu8PfWNiE3d8Q"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../../metadata/connections/mysql_tbi_0.1.item#_kOty-QCnEeu8PfWNiE3d8Q"/>
+    </context>
+    <results xmi:id="_4HSqaACoEeu8PfWNiE3d8Q">
+      <resultMetadata xmi:id="_4HSqaQCoEeu8PfWNiE3d8Q" executionDate="2020-11-10T20:25:12.730+0800" executionDuration="406" message="" executionNumber="18" lastRunOk="true" lastExecutionNumberOk="18"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_8yVdMgCoEeu8PfWNiE3d8Q" count="1155" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../../metadata/connections/mysql_tbi_0.1.item#_kOty-QCnEeu8PfWNiE3d8Q"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_9DT4cACoEeu8PfWNiE3d8Q" body="SELECT COUNT(*) FROM `tbi`.`employee` " language="MySQL"/>
+        <builtInIndicatorDefinition xmi:id="_9DFO8ACoEeu8PfWNiE3d8Q" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_9DFO8QCoEeu8PfWNiE3d8Q" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_9DFO8gCoEeu8PfWNiE3d8Q" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_9DFO8wCoEeu8PfWNiE3d8Q" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_8yVdMwCoEeu8PfWNiE3d8Q" count="1155" computed="true" userCount="732">
+        <analyzedElement xsi:type="relational:TdTable" href="../../../metadata/connections/mysql_tbi_0.1.item#_kOty-QCnEeu8PfWNiE3d8Q"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Rules/SQL/employee_rules_0.1.rules#_74cn0ACoEeu8PfWNiE3d8Q"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_9DT4cQCoEeu8PfWNiE3d8Q" body="SELECT COUNT(*) FROM `tbi`.`employee`   WHERE (first_name like '%a%')" language="MySQL"/>
+        <builtInIndicatorDefinition xsi:type="dataquality.rules:WhereRule" xmi:id="_9DHrMACoEeu8PfWNiE3d8Q" name="employee_rules" criticalityLevel="1" whereExpression="first_name like '%a%'">
+          <taggedValue xmi:id="_9DHrMQCoEeu8PfWNiE3d8Q" tag="Status" value="development"/>
+          <taggedValue xmi:id="_9DHrMgCoEeu8PfWNiE3d8Q" tag="Author" value="user@talend.com"/>
+          <taggedValue xmi:id="_9DHrMwCoEeu8PfWNiE3d8Q" tag="Purpose"/>
+          <taggedValue xmi:id="_9DHrNACoEeu8PfWNiE3d8Q" tag="Description"/>
+          <taggedValue xmi:id="_9DHrNQCoEeu8PfWNiE3d8Q" tag="Version" value="0.1"/>
+          <taggedValue xmi:id="_9DHrNgCoEeu8PfWNiE3d8Q" tag="Validation_Status" value="true"/>
+          <sqlGenericExpression xmi:id="_9DHrNwCoEeu8PfWNiE3d8Q" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_4HSqagCoEeu8PfWNiE3d8Q" dataFilter="_8ya8wACoEeu8PfWNiE3d8Q" analysisType="Table Analysis"/>
+    <contextType xmi:id="_8yVdMACoEeu8PfWNiE3d8Q" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_ww4RYCAAEeu6gu-EeR03eQ" kind="Usage" supplier="_4HSqYQCoEeu8PfWNiE3d8Q">
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mssql_2017_0.1.rep#_G3uFUSAEEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mysql_5_0.1.rep#_men-cCAAEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mysql_8_0.1.rep#_s2f0kCACEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_oracle_12_0.1.rep#_e52eESADEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_oracle_18_0.1.rep#_dp9jgCADEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_postgres_2017_0.1.rep#_TOkQwSAFEeu6gu-EeR03eQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+  <dataquality.domain:Domain xmi:id="_8ya8wACoEeu8PfWNiE3d8Q" name="business_rule_mysql">
+    <ranges xmi:id="_8ya8wQCoEeu8PfWNiE3d8Q">
+      <expressions xmi:id="_8ya8wgCoEeu8PfWNiE3d8Q">
+        <expression xsi:type="relational:TdExpression" xmi:id="_8ya8wwCoEeu8PfWNiE3d8Q" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

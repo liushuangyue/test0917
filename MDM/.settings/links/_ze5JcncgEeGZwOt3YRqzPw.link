@@ -1,0 +1,32 @@
+{
+  "itemId" : "_ze5JcncgEeGZwOt3YRqzPw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_D8vDQIUeEeC82sy-hyJXEw",
+    "parameterList" : [ {
+      "id" : "_cg5ioRU4EeykGrkZPGv9FQ",
+      "name" : "host"
+    }, {
+      "id" : "_cg5iohU4EeykGrkZPGv9FQ",
+      "name" : "port"
+    }, {
+      "id" : "_cg5ioxU4EeykGrkZPGv9FQ",
+      "name" : "user"
+    }, {
+      "id" : "_cg5ipBU4EeykGrkZPGv9FQ",
+      "name" : "password"
+    }, {
+      "id" : "_cg5ipRU4EeykGrkZPGv9FQ",
+      "name" : "tacHost"
+    }, {
+      "id" : "_cg5iphU4EeykGrkZPGv9FQ",
+      "name" : "tacPort"
+    }, {
+      "id" : "_cg5ipxU4EeykGrkZPGv9FQ",
+      "name" : "tacUser"
+    }, {
+      "id" : "_cg5iqBU4EeykGrkZPGv9FQ",
+      "name" : "tacPassword"
+    } ]
+  } ]
+}

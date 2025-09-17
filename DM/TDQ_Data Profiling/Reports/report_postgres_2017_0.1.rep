@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_TOkQwSAFEeu6gu-EeR03eQ" name="report_postgres_2017" creationDate="2020-11-06T15:20:51.893+0800" defaultContext="Default">
+  <clientDependency href="../Analyses/mysql_analysis/business_rule_mysql_0.1.ana#_ww4RYCAAEeu6gu-EeR03eQ"/>
+  <clientDependency href="../Analyses/mysql_analysis/catalog_mysql_1_0.1.ana#_ww-YACAAEeu6gu-EeR03eQ"/>
+  <clientDependency href="../Analyses/mysql_analysis/connection_overview_mysql_0.1.ana#_wxCpcCAAEeu6gu-EeR03eQ"/>
+  <clientDependency href="../Analyses/mysql_analysis/functional_mysql_0.1.ana#_wxk08CAAEeu6gu-EeR03eQ"/>
+  <clientDependency href="../Analyses/mysql_analysis/match_tswoosh_mysql_0.1.ana#_wxptcCAAEeu6gu-EeR03eQ"/>
+  <clientDependency href="../Analyses/mysql_analysis/redundancy_mysql_0.1.ana#_wxul8CAAEeu6gu-EeR03eQ"/>
+  <clientDependency href="../Analyses/mysql_analysis/set_sql_mysql_0.1.ana#_wxy3YCAAEeu6gu-EeR03eQ"/>
+  <clientDependency href="../Analyses/basic_mssql_missing_columns_0.1.ana#_kxDXcCACEeu6gu-EeR03eQ"/>
+  <taggedValue xmi:id="_TOkQwiAFEeu6gu-EeR03eQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_TOkQwyAFEeu6gu-EeR03eQ" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_TOkQxCAFEeu6gu-EeR03eQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_TOkQxSAFEeu6gu-EeR03eQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_TOkQxiAFEeu6gu-EeR03eQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_TOkQxyAFEeu6gu-EeR03eQ" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_TOkQyCAFEeu6gu-EeR03eQ" tag="REP_DBINFO_DBTYPE" value="PostgreSQL"/>
+  <taggedValue xmi:id="_TOkQySAFEeu6gu-EeR03eQ" tag="REP_DBINFO_DBVERSION" value="V9_X"/>
+  <taggedValue xmi:id="_TOkQyiAFEeu6gu-EeR03eQ" tag="REP_DBINFO_HOST" value="tdq.db.server"/>
+  <taggedValue xmi:id="_TOkQyyAFEeu6gu-EeR03eQ" tag="REP_DBINFO_PORT" value="5432"/>
+  <taggedValue xmi:id="_TOkQzCAFEeu6gu-EeR03eQ" tag="REP_DBINFO_DBNAME" value="yzhao731_1110"/>
+  <taggedValue xmi:id="_TOkQzSAFEeu6gu-EeR03eQ" tag="REP_DBINFO_SCHEMA" value="public"/>
+  <taggedValue xmi:id="_TOkQziAFEeu6gu-EeR03eQ" tag="REP_DBINFO_USER" value="talend"/>
+  <taggedValue xmi:id="_TOkQzyAFEeu6gu-EeR03eQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:RN9gqDyV+ozJ6PmN5dp3pFnmou5mQfl/MSYT5AXq+/SeXQ=="/>
+  <taggedValue xmi:id="_TOkQ0CAFEeu6gu-EeR03eQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_TOkQ0SAFEeu6gu-EeR03eQ" tag="REP_DBINFO_URL" value="jdbc:postgresql://tdq.db.server:5432/yzhao731_1110?"/>
+  <taggedValue xmi:id="_TOkQ0iAFEeu6gu-EeR03eQ" tag="REP_DBINFO_DRIVER" value="org.postgresql.Driver"/>
+  <taggedValue xmi:id="_TOkQ0yAFEeu6gu-EeR03eQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.PostgreSQLDialect"/>
+  <taggedValue xmi:id="_TOkQ1CAFEeu6gu-EeR03eQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_TOkQ1SAFEeu6gu-EeR03eQ" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_TOkQ1iAFEeu6gu-EeR03eQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_TOkQ1yAFEeu6gu-EeR03eQ" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_TOkQ2CAFEeu6gu-EeR03eQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_TOkQ2SAFEeu6gu-EeR03eQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_h1YjkCNPEeuOtYZkoE1XZg" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <analysisMap xmi:id="_TOkQ2iAFEeu6gu-EeR03eQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/mysql_analysis/business_rule_mysql_0.1.ana#_4HSqYQCoEeu8PfWNiE3d8Q"/>
+  </analysisMap>
+  <analysisMap xmi:id="_TOkQ2yAFEeu6gu-EeR03eQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/mysql_analysis/catalog_mysql_1_0.1.ana#_eYIkkQCoEeu8PfWNiE3d8Q"/>
+  </analysisMap>
+  <analysisMap xmi:id="_TOkQ3CAFEeu6gu-EeR03eQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/mysql_analysis/connection_overview_mysql_0.1.ana#_1liUwACnEeu8PfWNiE3d8Q"/>
+  </analysisMap>
+  <analysisMap xmi:id="_TOkQ3SAFEeu6gu-EeR03eQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/mysql_analysis/functional_mysql_0.1.ana#_ML_u0ACpEeu8PfWNiE3d8Q"/>
+  </analysisMap>
+  <analysisMap xmi:id="_TOkQ3iAFEeu6gu-EeR03eQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/mysql_analysis/match_tswoosh_mysql_0.1.ana#_DvFM4QCpEeu8PfWNiE3d8Q"/>
+  </analysisMap>
+  <analysisMap xmi:id="_TOkQ3yAFEeu6gu-EeR03eQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/mysql_analysis/redundancy_mysql_0.1.ana#_iq4zMQCoEeu8PfWNiE3d8Q"/>
+  </analysisMap>
+  <analysisMap xmi:id="_TOkQ4CAFEeu6gu-EeR03eQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/mysql_analysis/set_sql_mysql_0.1.ana#_g2Q-cACpEeu8PfWNiE3d8Q"/>
+  </analysisMap>
+  <analysisMap xmi:id="_TOkQ4SAFEeu6gu-EeR03eQ" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/basic_mssql_missing_columns_0.1.ana#_DCiD0SABEeu6gu-EeR03eQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_yjMxUCAFEeu6gu-EeR03eQ" executionDate="2020-11-10T20:25:12.730+0800" executionDuration="10837" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
+  <context xmi:id="_TOkQ4iAFEeu6gu-EeR03eQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

@@ -1,0 +1,32 @@
+{
+  "itemId" : "_WzskUPBOEeurlrP64Pse8w",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_K6F5wKxBEeGdy-T2skU_Bw",
+    "parameterList" : [ {
+      "id" : "_o-RilvBHEeurlrP64Pse8w",
+      "name" : "hive_host"
+    }, {
+      "id" : "_o-Ril_BHEeurlrP64Pse8w",
+      "name" : "hive_port"
+    }, {
+      "id" : "_o-RimPBHEeurlrP64Pse8w",
+      "name" : "jobtracker_host"
+    }, {
+      "id" : "_o-RimfBHEeurlrP64Pse8w",
+      "name" : "jobtracker_port"
+    }, {
+      "id" : "_o-RinfBHEeurlrP64Pse8w",
+      "name" : "mysql_passwd"
+    }, {
+      "id" : "_o-RinPBHEeurlrP64Pse8w",
+      "name" : "mysql_user"
+    }, {
+      "id" : "_o-RikfBHEeurlrP64Pse8w",
+      "name" : "namenode_host"
+    }, {
+      "id" : "_o-RikvBHEeurlrP64Pse8w",
+      "name" : "namenode_port"
+    } ]
+  } ]
+}

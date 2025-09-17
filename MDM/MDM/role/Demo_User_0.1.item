@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><mdmserverobject:WSRoleE xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmlns:xmi="http://www.omg.org/XMI" description="[EN:Demo User][FR:Utilisateur Démo]" name="Demo_User" xmi:id="_t7m_43dIEeGMK_tLGnzsJg" xmi:version="2.0">
+  <specification objectType="" xmi:id="_t7m_5HdIEeGMK_tLGnzsJg"/>
+  <specification objectType="Routing Engine V2" xmi:id="_t7m_5XdIEeGMK_tLGnzsJg"/>
+  <specification objectType="Service" xmi:id="_t7m_53dIEeGMK_tLGnzsJg"/>
+  <specification objectType="Routing Rule" xmi:id="_t7m_6ndIEeGMK_tLGnzsJg">
+    <instance instanceName=".*" xmi:id="_t7m_63dIEeGMK_tLGnzsJg"/>
+  </specification>
+  <specification objectType="Background Job" xmi:id="_t7m_7HdIEeGMK_tLGnzsJg"/>
+  <specification admin="true" objectType="Transformer Plugin" xmi:id="_t7m_7XdIEeGMK_tLGnzsJg"/>
+  <specification objectType="Menu" xmi:id="_t7m_7ndIEeGMK_tLGnzsJg">
+    <instance instanceName="Datastewardship" xmi:id="_t7m_8HdIEeGMK_tLGnzsJg">
+      <parameter><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<role-menu-parameters position="1"><parent-iD></parent-iD></role-menu-parameters>]]></parameter>
+    </instance>
+  </specification>
+  <specification objectType="Transformer V2" xmi:id="_t7m_8ndIEeGMK_tLGnzsJg">
+    <instance instanceName="Runnable_Product#ShowMap" xmi:id="_t7m_83dIEeGMK_tLGnzsJg"/>
+    <instance instanceName="beforeSaving_Product" xmi:id="_t7m_9HdIEeGMK_tLGnzsJg"/>
+    <instance instanceName="Runnable_Product#PriceWorkflow" xmi:id="_t7m_9XdIEeGMK_tLGnzsJg"/>
+  </specification>
+  <specification objectType="Stored Procedure" xmi:id="_t7m_9ndIEeGMK_tLGnzsJg"/>
+  <specification objectType="View" xmi:id="_t7m_-HdIEeGMK_tLGnzsJg">
+    <instance instanceName="Browse_items_Product" xmi:id="_t7m_-XdIEeGMK_tLGnzsJg"/>
+    <instance instanceName="Browse_items_Product#Unavailable" xmi:id="_t7m_-3dIEeGMK_tLGnzsJg"/>
+    <instance instanceName="Browse_items_Product#AndFamily" xmi:id="_t7nAAHdIEeGMK_tLGnzsJg"/>
+    <instance instanceName="Browse_items_Product#Stores" xmi:id="_t7nAAndIEeGMK_tLGnzsJg"/>
+    <instance instanceName="Browse_items_ProductFamily" xmi:id="_t7nAA3dIEeGMK_tLGnzsJg"/>
+    <instance instanceName="Browse_items_Store" xmi:id="_t7nABHdIEeGMK_tLGnzsJg"/>
+  </specification>
+  <specification admin="true" objectType="Routing Order V2 Failed" xmi:id="_t7nABXdIEeGMK_tLGnzsJg"/>
+  <specification admin="true" objectType="Item" xmi:id="_t7nAB3dIEeGMK_tLGnzsJg"/>
+  <specification objectType="Data Model" xmi:id="_t7nACXdIEeGMK_tLGnzsJg">
+    <instance instanceName="Product" xmi:id="_t7nACndIEeGMK_tLGnzsJg"/>
+  </specification>
+  <specification admin="true" objectType="Routing Order V2 Completed" xmi:id="_t7nADHdIEeGMK_tLGnzsJg"/>
+  <specification objectType="Role" xmi:id="_t7nADXdIEeGMK_tLGnzsJg">
+    <instance instanceName=".*" xmi:id="_t7nADndIEeGMK_tLGnzsJg"/>
+  </specification>
+  <specification objectType="Data Cluster" xmi:id="_t7nAD3dIEeGMK_tLGnzsJg">
+    <instance instanceName="Product" xmi:id="_t7nAEHdIEeGMK_tLGnzsJg"/>
+  </specification>
+  <specification admin="true" objectType="Transformer Plugin V2" xmi:id="_t7nAEndIEeGMK_tLGnzsJg"/>
+  <specification objectType="Configuration Info" xmi:id="_t7nAE3dIEeGMK_tLGnzsJg"/>
+  <specification admin="true" objectType="Transformer" xmi:id="_t7nAFHdIEeGMK_tLGnzsJg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_afe48f90-160c-4660-856c-64a58c2e1bb3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RZi5BOVFL4cy7b9JGgCL7IBtcWpkAAFogXcoC0vKGy12gWW915A7i3xxzWLfs0SYfEWq3LQ4UH+q&#13;
+KEK3rxNOgw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4fcf9cb5-09b8-4e89-8f46-6a8f86e51270"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hABDtVgFkpEtvyEYDLG8cXmppXHmccjW1rljxj9qINLIvJjlCU0rolDEOGxjG/VRGKP3eE84TXfo&#13;
+j0MK/MJCgQ==</DigestValue></Reference></SignedInfo><SignatureValue>mPDIw3g/2OrV5mJ5FLuBP0ciqvVbG1vQTYaMdtDVVVbYWhcTzCC3jLd91K+3lbjwcxdIpY1XDfeY&#13;
+k088z9Zlenar5l+/qdQ0z1IDXjIPazhRFYu3klCBWuPTcFD8FcixoKQupyn+qH4pPyJbtKfLAdFO&#13;
+9Jihvs2qEBadrkpZLYLs1EeVzMdCGAeoIZIdM6hGMNhxN09bA7gNmVzUaAXWAkqF8QWgiK4xnCG7&#13;
+hQWBgT/nxz58Ui+kABPvZMKCgb+KHlAN/Wzy4WPUnYMfFArEwalpHuzpnevO9hxq7ta9oCON6JIr&#13;
+njZSriAvODjq5utkfGIPXKIVio0oYcM63RaZ9w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4fcf9cb5-09b8-4e89-8f46-6a8f86e51270" Target="#_afe48f90-160c-4660-856c-64a58c2e1bb3"><Timestamp>2021-09-14 08:48:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></mdmserverobject:WSRoleE>

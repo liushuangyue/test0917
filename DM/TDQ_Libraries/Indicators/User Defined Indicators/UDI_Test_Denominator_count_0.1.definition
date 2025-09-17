@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.indicators.definition.userdefine="http://dataquality.indicators.definition.userdefine" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
+  <dataquality.indicators.definition.userdefine:UDIndicatorDefinition xmi:id="_Z-WtkJ0KEem05NE-oTgMNw" name="UDI_Test_Denominator_count" supplierDependency="_st_cgJ0KEem05NE-oTgMNw" label="UDI_Test_Denominator_count">
+    <taggedValue xmi:id="_Z-XUoJ0KEem05NE-oTgMNw" tag="Status" value="development"/>
+    <taggedValue xmi:id="_Z-XUoZ0KEem05NE-oTgMNw" tag="Author" value="DQFramework_dev@hulu.com"/>
+    <taggedValue xmi:id="_Z-XUop0KEem05NE-oTgMNw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_Z-XUo50KEem05NE-oTgMNw" tag="Description" value="Test denominator"/>
+    <taggedValue xmi:id="_Z-XUpJ0KEem05NE-oTgMNw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_Z-XUpZ0KEem05NE-oTgMNw" tag="Validation_Status" value="true"/>
+    <categories href="../../.Talend.definition#_Ba7OYXsXEd63r-VLO3_0OQ"/>
+    <sqlGenericExpression xmi:id="_NunsIJ3MEemcyLhG0Dxp6A" body="SELECT A.value, A.value FROM (SELECT 10 'value') A" language="SQL" version="" modificationDate="2019-07-03 12:53:21" expressionVariableMap="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C770800000010000000027400123C57484552455F544558545F4649454C443E7400007400203C4D41544348494E475F45585052455353494F4E5F544558545F4649454C443E74000078"/>
+    <viewInvalidRowsExpression xmi:id="_NuoTMZ3MEemcyLhG0Dxp6A" body="SELECT * FROM  &lt;%=__TABLE_NAME__%> WHERE NOT (  ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL" version="" modificationDate="2019-07-03 12:53:21"/>
+    <viewValidRowsExpression xmi:id="_NuoTMJ3MEemcyLhG0Dxp6A" body="SELECT * FROM  &lt;%=__TABLE_NAME__%> WHERE  () &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL" version="" modificationDate="2019-07-03 12:53:21"/>
+    <viewInvalidValuesExpression xmi:id="_NuoTM53MEemcyLhG0Dxp6A" body="SELECT  &lt;%=__COLUMN_NAMES__%> FROM  &lt;%=__TABLE_NAME__%> WHERE NOT (  ) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL" version="" modificationDate="2019-07-03 12:53:21"/>
+    <viewValidValuesExpression xmi:id="_NuoTMp3MEemcyLhG0Dxp6A" body="SELECT &lt;%=__COLUMN_NAMES__%>  FROM  &lt;%=__TABLE_NAME__%> WHERE  () &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL" version="" modificationDate="2019-07-03 12:53:21"/>
+  </dataquality.indicators.definition.userdefine:UDIndicatorDefinition>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_st_cgJ0KEem05NE-oTgMNw" kind="Usage" supplier="_Z-WtkJ0KEem05NE-oTgMNw"/>
+</xmi:XMI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <dataquality.analysis:Analysis xmi:id="_1liUwACnEeu8PfWNiE3d8Q" name="connection_overview_mysql" supplierDependency="_wxCpcCAAEeu6gu-EeR03eQ" creationDate="2020-09-27T17:57:22.055+0800" defaultContext="Default">
+    <clientDependency href="../../../metadata/connections/mysql_tbi_0.1.item#_l-4I8ACnEeu8PfWNiE3d8Q"/>
+    <taggedValue xmi:id="_1liUwQCnEeu8PfWNiE3d8Q" tag="Status" value="development"/>
+    <taggedValue xmi:id="_1liUwgCnEeu8PfWNiE3d8Q" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_1liUwwCnEeu8PfWNiE3d8Q" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_1liUxACnEeu8PfWNiE3d8Q" tag="Description" value=""/>
+    <taggedValue xmi:id="_1liUxQCnEeu8PfWNiE3d8Q" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_2_B3QQCnEeu8PfWNiE3d8Q" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_2_CeUACnEeu8PfWNiE3d8Q" tag="Reload Databases" value="false"/>
+    <taggedValue xmi:id="_2_CeUQCnEeu8PfWNiE3d8Q" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_1liUxgCnEeu8PfWNiE3d8Q">
+      <connection href="../../../metadata/connections/mysql_tbi_0.1.item#_c6RU4ACnEeu8PfWNiE3d8Q"/>
+      <analysedElements xsi:type="TalendMetadata:DatabaseConnection" href="../../../metadata/connections/mysql_tbi_0.1.item#_c6RU4ACnEeu8PfWNiE3d8Q"/>
+    </context>
+    <results xmi:id="_1liUxwCnEeu8PfWNiE3d8Q">
+      <resultMetadata xmi:id="_1liUyACnEeu8PfWNiE3d8Q" executionDate="2020-11-10T20:25:13.424+0800" executionDuration="44" message="" executionNumber="18" lastRunOk="true" lastExecutionNumberOk="18"/>
+      <indicators xsi:type="dataquality.indicators.schema:ConnectionIndicator" xmi:id="_1liUyQCnEeu8PfWNiE3d8Q" computed="true" tableCount="1" keyCount="1" indexCount="1" viewCount="1" tableRowCount="1155" viewRowCount="3634" catalogCount="1">
+        <analyzedElement xsi:type="TalendMetadata:DatabaseConnection" href="../../../metadata/connections/mysql_tbi_0.1.item#_c6RU4ACnEeu8PfWNiE3d8Q"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Connection_Overview_0.1.definition#_nZEo8MYSEd27NP4lvE0A4w"/>
+        <catalogIndicators xmi:id="_yEoZYCNPEeuOtYZkoE1XZg" tableCount="1" keyCount="1" indexCount="1" viewCount="1" tableRowCount="1155" viewRowCount="3634">
+          <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../../metadata/connections/mysql_tbi_0.1.item#_c8DdkACnEeu8PfWNiE3d8Q"/>
+          <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+          <tableIndicators xmi:id="_yEoZYSNPEeuOtYZkoE1XZg" rowCount="1155" tableName="employee" keyCount="1" indexCount="1">
+            <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+          </tableIndicators>
+          <viewIndicators xmi:id="_yEoZYiNPEeuOtYZkoE1XZg" rowCount="3634" tableName="view_customer">
+            <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+          </viewIndicators>
+        </catalogIndicators>
+      </indicators>
+    </results>
+    <parameters xmi:id="_1liUywCnEeu8PfWNiE3d8Q" dataFilter="_2_CeUgCnEeu8PfWNiE3d8Q" analysisType="Connection Analysis"/>
+    <contextType xmi:id="_2_B3QACnEeu8PfWNiE3d8Q" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_wxCpcCAAEeu6gu-EeR03eQ" kind="Usage" supplier="_1liUwACnEeu8PfWNiE3d8Q">
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mssql_2017_0.1.rep#_G3uFUSAEEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mysql_5_0.1.rep#_men-cCAAEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mysql_8_0.1.rep#_s2f0kCACEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_oracle_12_0.1.rep#_e52eESADEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_oracle_18_0.1.rep#_dp9jgCADEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_postgres_2017_0.1.rep#_TOkQwSAFEeu6gu-EeR03eQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+  <dataquality.domain:Domain xmi:id="_2_CeUgCnEeu8PfWNiE3d8Q" name="Analysis Data Filter" patterns="_2_CeUwCnEeu8PfWNiE3d8Q _2_CeVgCnEeu8PfWNiE3d8Q">
+    <ownedElement xsi:type="dataquality.domain.pattern:Pattern" xmi:id="_2_CeUwCnEeu8PfWNiE3d8Q" name="Table Pattern">
+      <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_2_CeVACnEeu8PfWNiE3d8Q">
+        <expression xmi:id="_2_CeVQCnEeu8PfWNiE3d8Q" body="employee"/>
+      </components>
+    </ownedElement>
+    <ownedElement xsi:type="dataquality.domain.pattern:Pattern" xmi:id="_2_CeVgCnEeu8PfWNiE3d8Q" name="View Pattern">
+      <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_2_CeVwCnEeu8PfWNiE3d8Q">
+        <expression xmi:id="_2_CeWACnEeu8PfWNiE3d8Q" body="view%"/>
+      </components>
+    </ownedElement>
+  </dataquality.domain:Domain>
+</xmi:XMI>

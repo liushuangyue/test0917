@@ -1,0 +1,20 @@
+{
+  "itemId" : "_OloYgA26EealOcdNSic3Gw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_CUzSUKE8EemkkuApKQVanw",
+    "parameterList" : [ {
+      "id" : "_zQ4N4cQgEeuhe9YyUiV5_w",
+      "name" : "regexcontext_Encoding"
+    }, {
+      "id" : "_zQ4N4sQgEeuhe9YyUiV5_w",
+      "name" : "regexcontext_RowSeparator"
+    }, {
+      "id" : "_zQ4N48QgEeuhe9YyUiV5_w",
+      "name" : "regexcontext_RegExpression"
+    }, {
+      "id" : "_zQ4N5MQgEeuhe9YyUiV5_w",
+      "name" : "regexcontext_File"
+    } ]
+  } ]
+}

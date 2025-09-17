@@ -1,0 +1,29 @@
+{
+  "itemId" : "_z4GdgP5_Eei-Z4PkRoQY6Q",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_6pLswHFfEem65KN_UG5T7w",
+    "parameterList" : [ {
+      "id" : "_0Lmz4cToEeu-KPmAp8s1Mw",
+      "name" : "context_oracle_Port"
+    }, {
+      "id" : "_0Lmz4sToEeu-KPmAp8s1Mw",
+      "name" : "context_oracle_Password"
+    }, {
+      "id" : "_0Lmz48ToEeu-KPmAp8s1Mw",
+      "name" : "context_oracle_Schema"
+    }, {
+      "id" : "_0Lmz5MToEeu-KPmAp8s1Mw",
+      "name" : "context_oracle_Login"
+    }, {
+      "id" : "_0Lmz5cToEeu-KPmAp8s1Mw",
+      "name" : "context_oracle_Server"
+    }, {
+      "id" : "_0Lmz5sToEeu-KPmAp8s1Mw",
+      "name" : "context_oracle_Sid"
+    }, {
+      "id" : "_0Lmz58ToEeu-KPmAp8s1Mw",
+      "name" : "context_oracle_AdditionalParams"
+    } ]
+  } ]
+}

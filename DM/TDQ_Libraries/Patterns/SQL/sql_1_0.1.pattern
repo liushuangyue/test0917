@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.domain.pattern:Pattern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmi:id="_EyW-QVOTEeqKKozQeIqu0w" name="sql_1">
+  <taggedValue xmi:id="_EyW-QlOTEeqKKozQeIqu0w" tag="Status" value="development"/>
+  <taggedValue xmi:id="_EyW-Q1OTEeqKKozQeIqu0w" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_EyW-RFOTEeqKKozQeIqu0w" tag="Purpose"/>
+  <taggedValue xmi:id="_EyW-RVOTEeqKKozQeIqu0w" tag="Description"/>
+  <taggedValue xmi:id="_EyW-RlOTEeqKKozQeIqu0w" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_EyW-R1OTEeqKKozQeIqu0w" tag="Validation_Status" value="true"/>
+  <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_EyW-SFOTEeqKKozQeIqu0w" expressionType="SQL like">
+    <expression xmi:id="_EyW-SVOTEeqKKozQeIqu0w" body="'kl'" language="SQL"/>
+  </components>
+</dataquality.domain.pattern:Pattern>

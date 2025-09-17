@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_deCawCNNEeuYAdGlLC263A" name="report_snowfalke" creationDate="2020-11-06T15:20:51.893+0800" defaultContext="Default">
+  <clientDependency href="../Analyses/basic_mssql_missing_columns_0.1.ana#_kxDXcCACEeu6gu-EeR03eQ"/>
+  <taggedValue xmi:id="_deCawSNNEeuYAdGlLC263A" tag="Status" value="development"/>
+  <taggedValue xmi:id="_deCawiNNEeuYAdGlLC263A" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_deCawyNNEeuYAdGlLC263A" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_deCaxCNNEeuYAdGlLC263A" tag="Description" value=""/>
+  <taggedValue xmi:id="_deCaxSNNEeuYAdGlLC263A" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_deCaxiNNEeuYAdGlLC263A" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_deCaxyNNEeuYAdGlLC263A" tag="REP_DBINFO_DBTYPE" value="Snowflake"/>
+  <taggedValue xmi:id="_deCayCNNEeuYAdGlLC263A" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_deCaySNNEeuYAdGlLC263A" tag="REP_DBINFO_HOST" value="talend.snowflakecomputing.com"/>
+  <taggedValue xmi:id="_deCayiNNEeuYAdGlLC263A" tag="REP_DBINFO_PORT" value="443"/>
+  <taggedValue xmi:id="_deCayyNNEeuYAdGlLC263A" tag="REP_DBINFO_DBNAME" value="COMPTEST_DB"/>
+  <taggedValue xmi:id="_deCazCNNEeuYAdGlLC263A" tag="REP_DBINFO_SCHEMA" value="YZHAO731_ZZ"/>
+  <taggedValue xmi:id="_deCazSNNEeuYAdGlLC263A" tag="REP_DBINFO_USER" value="talendDQ"/>
+  <taggedValue xmi:id="_deCaziNNEeuYAdGlLC263A" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:qt2touRXxhDWu9rMwkiU2ppgFB/Tc+rWuqP3/91DNB6woB5SmsDyLQ=="/>
+  <taggedValue xmi:id="_deCazyNNEeuYAdGlLC263A" tag="REP_DBINFO_PARAMETER" value="CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
+  <taggedValue xmi:id="_deCa0CNNEeuYAdGlLC263A" tag="REP_DBINFO_URL" value="jdbc:snowflake://talend.snowflakecomputing.com:443/?db=COMPTEST_DB&amp;schema=YZHAO731_ZZ&amp;warehouse=COMPTEST_WH&amp;CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
+  <taggedValue xmi:id="_deCa0SNNEeuYAdGlLC263A" tag="REP_DBINFO_DRIVER" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
+  <taggedValue xmi:id="_deCa0iNNEeuYAdGlLC263A" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.SnowflakeDialect"/>
+  <taggedValue xmi:id="_deCa0yNNEeuYAdGlLC263A" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_deCa1CNNEeuYAdGlLC263A" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_deCa1SNNEeuYAdGlLC263A" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_deCa1iNNEeuYAdGlLC263A" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_deCa1yNNEeuYAdGlLC263A" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_deCa2CNNEeuYAdGlLC263A" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_deCa2SNNEeuYAdGlLC263A" tag="REP_DBINFO_WAREHOUSE" value="COMPTEST_WH"/>
+  <analysisMap xmi:id="_T87mACNPEeuOtYZkoE1XZg" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/basic_mssql_missing_columns_0.1.ana#_DCiD0SABEeu6gu-EeR03eQ"/>
+  </analysisMap>
+  <ExecInformations xmi:id="_deCa3CNNEeuYAdGlLC263A" executionDate="2020-11-10T20:25:52.162+0800" executionDuration="6735" executionNumber="4" lastRunOk="true" lastExecutionNumberOk="4"/>
+  <context xmi:id="_deCa3SNNEeuYAdGlLC263A" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

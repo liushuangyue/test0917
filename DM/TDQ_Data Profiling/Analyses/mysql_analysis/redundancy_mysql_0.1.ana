@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_iq4zMQCoEeu8PfWNiE3d8Q" name="redundancy_mysql" supplierDependency="_wxul8CAAEeu6gu-EeR03eQ" creationDate="2020-09-27T18:02:24.611+0800" defaultContext="Default">
+    <clientDependency href="../../../metadata/connections/mysql_tbi_0.1.item#_l-4I8ACnEeu8PfWNiE3d8Q"/>
+    <taggedValue xmi:id="_iq4zMgCoEeu8PfWNiE3d8Q" tag="Status" value="development"/>
+    <taggedValue xmi:id="_iq4zMwCoEeu8PfWNiE3d8Q" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_iq4zNACoEeu8PfWNiE3d8Q" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_iq4zNQCoEeu8PfWNiE3d8Q" tag="Description" value=""/>
+    <taggedValue xmi:id="_iq4zNgCoEeu8PfWNiE3d8Q" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_t9xcsQCoEeu8PfWNiE3d8Q" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_t9xctACoEeu8PfWNiE3d8Q" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_iq4zNwCoEeu8PfWNiE3d8Q">
+      <connection href="../../../metadata/connections/mysql_tbi_0.1.item#_c6RU4ACnEeu8PfWNiE3d8Q"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/mysql_tbi_0.1.item#_klWxWwCnEeu8PfWNiE3d8Q"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../../metadata/connections/mysql_tbi_0.1.item#_klWxUwCnEeu8PfWNiE3d8Q"/>
+    </context>
+    <results xmi:id="_iq4zOACoEeu8PfWNiE3d8Q">
+      <resultMetadata xmi:id="_iq4zOQCoEeu8PfWNiE3d8Q" executionDate="2021-09-10T16:36:51.473+0800" executionDuration="243" message="" executionNumber="19" lastRunOk="true" lastExecutionNumberOk="19"/>
+      <indicators xsi:type="dataquality.indicators.columnset:RowMatchingIndicator" xmi:id="_t9xcsgCoEeu8PfWNiE3d8Q" count="1155" computed="true" matchingValueCount="888" notMatchingValueCount="267">
+        <analyzedElement xsi:type="relational:TdTable" href="../../../metadata/connections/mysql_tbi_0.1.item#_kOty-QCnEeu8PfWNiE3d8Q"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Row Comparison/Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+        <instantiatedExpressions xmi:id="_uPh7EACoEeu8PfWNiE3d8Q" body="SELECT COUNT(*) FROM `tbi`.`employee` A LEFT JOIN `tbi`.`employee` B ON ( (A.`store_id` = B.`position_id`) ) WHERE (B.`position_id` IS NULL )" language="SQL"/>
+        <builtInIndicatorDefinition xmi:id="_uPW78ACoEeu8PfWNiE3d8Q" name="Row Comparison" label="Row Comparison">
+          <taggedValue xmi:id="_uPW78QCoEeu8PfWNiE3d8Q" tag="Purpose" value="Compare content of two column sets"/>
+          <taggedValue xmi:id="_uPW78gCoEeu8PfWNiE3d8Q" tag="Description" value="Counts the number of data from a column set A that match data of a column set B"/>
+          <sqlGenericExpression xmi:id="_uPW78wCoEeu8PfWNiE3d8Q" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="SQL"/>
+          <sqlGenericExpression xmi:id="_uPW79ACoEeu8PfWNiE3d8Q" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT OUTER JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="Hive"/>
+        </builtInIndicatorDefinition>
+        <columnSetA href="../../../metadata/connections/mysql_tbi_0.1.item#_klWxWwCnEeu8PfWNiE3d8Q"/>
+        <columnSetB href="../../../metadata/connections/mysql_tbi_0.1.item#_klWxUwCnEeu8PfWNiE3d8Q"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators.columnset:RowMatchingIndicator" xmi:id="_t9xcswCoEeu8PfWNiE3d8Q" count="1155" computed="true" matchingValueCount="1155">
+        <analyzedElement xsi:type="relational:TdTable" href="../../../metadata/connections/mysql_tbi_0.1.item#_kOty-QCnEeu8PfWNiE3d8Q"/>
+        <indicatorDefinition href="../../../TDQ_Libraries/Indicators/System Indicators/Row Comparison/Row_Comparison_0.1.definition#_jMh4gJE3Ed2HGNmGoaS-_w"/>
+        <instantiatedExpressions xmi:id="_uPh7EQCoEeu8PfWNiE3d8Q" body="SELECT COUNT(*) FROM `tbi`.`employee` A LEFT JOIN `tbi`.`employee` B ON ( (A.`position_id` = B.`store_id`) ) WHERE (B.`store_id` IS NULL )" language="SQL"/>
+        <builtInIndicatorDefinition xmi:id="_uPfe0ACoEeu8PfWNiE3d8Q" name="Row Comparison" label="Row Comparison">
+          <taggedValue xmi:id="_uPfe0QCoEeu8PfWNiE3d8Q" tag="Purpose" value="Compare content of two column sets"/>
+          <taggedValue xmi:id="_uPfe0gCoEeu8PfWNiE3d8Q" tag="Description" value="Counts the number of data from a column set A that match data of a column set B"/>
+          <sqlGenericExpression xmi:id="_uPfe0wCoEeu8PfWNiE3d8Q" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="SQL"/>
+          <sqlGenericExpression xmi:id="_uPfe1ACoEeu8PfWNiE3d8Q" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> LEFT OUTER JOIN &lt;%=__TABLE_NAME_2__%> ON (&lt;%=__JOIN_CLAUSE__%>) WHERE (&lt;%=__WHERE_CLAUSE__%>)" language="Hive"/>
+        </builtInIndicatorDefinition>
+        <columnSetA href="../../../metadata/connections/mysql_tbi_0.1.item#_klWxUwCnEeu8PfWNiE3d8Q"/>
+        <columnSetB href="../../../metadata/connections/mysql_tbi_0.1.item#_klWxWwCnEeu8PfWNiE3d8Q"/>
+      </indicators>
+    </results>
+    <parameters xmi:id="_iq4zOgCoEeu8PfWNiE3d8Q" analysisType="Columns Comparison Analysis"/>
+    <contextType xmi:id="_t9xcsACoEeu8PfWNiE3d8Q" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_wxul8CAAEeu6gu-EeR03eQ" kind="Usage" supplier="_iq4zMQCoEeu8PfWNiE3d8Q">
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mssql_2017_0.1.rep#_G3uFUSAEEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mysql_5_0.1.rep#_men-cCAAEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_mysql_8_0.1.rep#_s2f0kCACEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_oracle_12_0.1.rep#_e52eESADEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_oracle_18_0.1.rep#_dp9jgCADEeu6gu-EeR03eQ"/>
+    <client xsi:type="dataquality.reports:TdReport" href="../../Reports/report_postgres_2017_0.1.rep#_TOkQwSAFEeu6gu-EeR03eQ"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+</xmi:XMI>

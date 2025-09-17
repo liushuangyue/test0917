@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.indicators.definition.userdefine="http://dataquality.indicators.definition.userdefine" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore">
+  <dataquality.indicators.definition.userdefine:UDIndicatorDefinition xmi:id="_CZ3YoVReEeqAqcUwTh6Npw" name="udi_1" supplierDependency="_NbeE4FReEeqAqcUwTh6Npw" label="udi_1">
+    <taggedValue xmi:id="_CZ3YolReEeqAqcUwTh6Npw" tag="Status" value="development"/>
+    <taggedValue xmi:id="_CZ3Yo1ReEeqAqcUwTh6Npw" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_CZ3YpFReEeqAqcUwTh6Npw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_CZ3YpVReEeqAqcUwTh6Npw" tag="Description" value=""/>
+    <taggedValue xmi:id="_CZ3YplReEeqAqcUwTh6Npw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_CZ3Yp1ReEeqAqcUwTh6Npw" tag="Validation_Status" value="true"/>
+    <categories href="../../.Talend.definition#_b5F7QHqTEd67hM2eKD3QgQ"/>
+    <sqlGenericExpression xmi:id="_TXRYIFRiEeqkjZxZ6L-NfQ" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE (id>8) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL" version="" modificationDate="2020-02-21 12:26:15" expressionVariableMap="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C770800000010000000017400123C57484552455F544558545F4649454C443E74000469643E3878"/>
+    <viewRowsExpression xmi:id="_TXRYIVRiEeqkjZxZ6L-NfQ" body="SELECT * FROM &lt;%=__TABLE_NAME__%> WHERE (id>8) &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL" version="" modificationDate="2020-02-21 12:26:15"/>
+  </dataquality.indicators.definition.userdefine:UDIndicatorDefinition>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_NbeE4FReEeqAqcUwTh6Npw" kind="Usage" supplier="_CZ3YoVReEeqAqcUwTh6Npw"/>
+</xmi:XMI>

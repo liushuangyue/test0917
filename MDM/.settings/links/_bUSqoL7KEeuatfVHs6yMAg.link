@@ -1,0 +1,26 @@
+{
+  "itemId" : "_bUSqoL7KEeuatfVHs6yMAg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_IeTcEL7KEeuatfVHs6yMAg",
+    "parameterList" : [ {
+      "id" : "_nJwOkcQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_postgre_connection_userPassword_password"
+    }, {
+      "id" : "_nJwOksQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_postgre_connection_driverClass"
+    }, {
+      "id" : "_nJwOk8QhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_postgre_connection_jdbcUrl"
+    }, {
+      "id" : "_nJwOlMQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_postgre_connection_userPassword_userId"
+    }, {
+      "id" : "_nJwOlcQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_postgre_drivers"
+    }, {
+      "id" : "_nJwOlsQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_postgre_mappingFile"
+    } ]
+  } ]
+}

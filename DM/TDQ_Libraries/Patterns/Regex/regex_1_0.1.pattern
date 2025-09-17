@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.domain.pattern:Pattern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmi:id="_A56tEFOTEeqKKozQeIqu0w" name="regex_1">
+  <taggedValue xmi:id="_A56tEVOTEeqKKozQeIqu0w" tag="Status" value="development"/>
+  <taggedValue xmi:id="_A56tElOTEeqKKozQeIqu0w" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_A56tE1OTEeqKKozQeIqu0w" tag="Purpose"/>
+  <taggedValue xmi:id="_A56tFFOTEeqKKozQeIqu0w" tag="Description"/>
+  <taggedValue xmi:id="_A56tFVOTEeqKKozQeIqu0w" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_A56tFlOTEeqKKozQeIqu0w" tag="Validation_Status" value="true"/>
+  <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_A56tF1OTEeqKKozQeIqu0w" expressionType="REGEXP">
+    <expression xmi:id="_A56tGFOTEeqKKozQeIqu0w" body="'aa'" language="SQL"/>
+  </components>
+</dataquality.domain.pattern:Pattern>

@@ -1,0 +1,32 @@
+{
+  "itemId" : "_QMik8P37EeizoNb9-jFG9g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_RwfrAP37EeizoNb9-jFG9g",
+    "parameterList" : [ {
+      "id" : "_nMxtYcQhEeuyuOvTLiHUsw",
+      "name" : "ldapcontext_Host"
+    }, {
+      "id" : "_nMxtYsQhEeuyuOvTLiHUsw",
+      "name" : "ldapcontext_Port"
+    }, {
+      "id" : "_nMxtY8QhEeuyuOvTLiHUsw",
+      "name" : "ldapcontext_BindPassword"
+    }, {
+      "id" : "_nMxtZMQhEeuyuOvTLiHUsw",
+      "name" : "ldapcontext_BindPrincipal"
+    }, {
+      "id" : "_nMxtZcQhEeuyuOvTLiHUsw",
+      "name" : "ldapcontext_Filter"
+    }, {
+      "id" : "_nMxtZsQhEeuyuOvTLiHUsw",
+      "name" : "ldapcontext_TimeOutLimit"
+    }, {
+      "id" : "_nMxtZ8QhEeuyuOvTLiHUsw",
+      "name" : "ldapcontext_CountLimit"
+    }, {
+      "id" : "_nMxtaMQhEeuyuOvTLiHUsw",
+      "name" : "ldapcontext_BaseDN"
+    } ]
+  } ]
+}

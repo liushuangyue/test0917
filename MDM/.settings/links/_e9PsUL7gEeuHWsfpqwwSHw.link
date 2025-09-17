@@ -1,0 +1,23 @@
+{
+  "itemId" : "_e9PsUL7gEeuHWsfpqwwSHw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_HQR_sHP0EeqoKYz_PVdMig",
+    "parameterList" : [ {
+      "id" : "_nJIjgcQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_mssql_connection_userPassword_userId"
+    }, {
+      "id" : "_nJIjgsQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_mssql_connection_jdbcUrl"
+    }, {
+      "id" : "_nJIjg8QhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_mssql_drivers"
+    }, {
+      "id" : "_nJIjhMQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_mssql_connection_driverClass"
+    }, {
+      "id" : "_nJIjhcQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_mssql_connection_userPassword_password"
+    } ]
+  } ]
+}

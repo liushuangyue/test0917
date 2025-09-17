@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_mW3WUCAQEeu6gu-EeR03eQ" name="bbb" creationDate="2020-11-06T17:15:23.060+0800" defaultContext="Default">
+  <taggedValue xmi:id="_mW3WUSAQEeu6gu-EeR03eQ" tag="Status" value="development"/>
+  <taggedValue xmi:id="_mW3WUiAQEeu6gu-EeR03eQ" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_mW3WUyAQEeu6gu-EeR03eQ" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_mW3WVCAQEeu6gu-EeR03eQ" tag="Description" value=""/>
+  <taggedValue xmi:id="_mW3WVSAQEeu6gu-EeR03eQ" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_mW3WViAQEeu6gu-EeR03eQ" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_mW3WVyAQEeu6gu-EeR03eQ" tag="REP_DBINFO_DBTYPE" value="Microsoft SQL Server"/>
+  <taggedValue xmi:id="_mW3WWCAQEeu6gu-EeR03eQ" tag="REP_DBINFO_DBVERSION" value="JTDS"/>
+  <taggedValue xmi:id="_mW3WWSAQEeu6gu-EeR03eQ" tag="REP_DBINFO_HOST" value="localhost"/>
+  <taggedValue xmi:id="_mW3WWiAQEeu6gu-EeR03eQ" tag="REP_DBINFO_PORT" value="1433"/>
+  <taggedValue xmi:id="_mW3WWyAQEeu6gu-EeR03eQ" tag="REP_DBINFO_DBNAME" value="aa1"/>
+  <taggedValue xmi:id="_mW3WXCAQEeu6gu-EeR03eQ" tag="REP_DBINFO_SCHEMA" value="dbo"/>
+  <taggedValue xmi:id="_mW3WXSAQEeu6gu-EeR03eQ" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_mW3WXiAQEeu6gu-EeR03eQ" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:2H7QWZax+QyY0Tas154k1NTgTSBqvjuuXV2Q6ZGw"/>
+  <taggedValue xmi:id="_mW3WXyAQEeu6gu-EeR03eQ" tag="REP_DBINFO_PARAMETER" value=""/>
+  <taggedValue xmi:id="_mW3WYCAQEeu6gu-EeR03eQ" tag="REP_DBINFO_URL" value="jdbc:jtds:sqlserver://localhost:1433/aa1;"/>
+  <taggedValue xmi:id="_mW3WYSAQEeu6gu-EeR03eQ" tag="REP_DBINFO_DRIVER" value="net.sourceforge.jtds.jdbc.Driver"/>
+  <taggedValue xmi:id="_mW3WYiAQEeu6gu-EeR03eQ" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.SQLServerDialect"/>
+  <taggedValue xmi:id="_mW3WYyAQEeu6gu-EeR03eQ" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_raF_oCAQEeu6gu-EeR03eQ" tag="OutputFileName" value=""/>
+  <taggedValue xmi:id="_raF_oSAQEeu6gu-EeR03eQ" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_raF_oiAQEeu6gu-EeR03eQ" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_raF_oyAQEeu6gu-EeR03eQ" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_raF_pSAQEeu6gu-EeR03eQ" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <context xmi:id="_raF_pCAQEeu6gu-EeR03eQ" confirmationNeeded="false" name="Default"/>
+</dataquality.reports:TdReport>

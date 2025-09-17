@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_6QV_QDd-EeqGTMF93RTFew" name="file_input" supplierDependency="_7rl1QDd-EeqGTMF93RTFew" dataPackage="_6QV_QTd-EeqGTMF93RTFew" Server="Localhost 127.0.0.1" FilePath="C:/Users/yzhao/Desktop/input.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" HeaderValue="0"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_6QV_QTd-EeqGTMF93RTFew" name="default" dataManager="_6QV_QDd-EeqGTMF93RTFew">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_6QV_Qjd-EeqGTMF93RTFew" id="_uzLYYDd-EeqGTMF93RTFew" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6QV_Qzd-EeqGTMF93RTFew" id="Column0" label="Column0" length="10" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_7rl1QTd-EeqGTMF93RTFew" tag="Content Type" value="Interval"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6QV_RDd-EeqGTMF93RTFew" id="Column1" label="Column1" length="38" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6QV_RTd-EeqGTMF93RTFew" id="Column2" label="Column2" length="81" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6QV_Rjd-EeqGTMF93RTFew" id="Column3" label="Column3" length="32" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_7rl1QDd-EeqGTMF93RTFew" kind="Usage" supplier="_6QV_QDd-EeqGTMF93RTFew"/>
+</xmi:XMI>

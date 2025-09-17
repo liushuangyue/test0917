@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><mdmserverobject:WSRoutingRuleE xmlns:mdmserverobject="http://www.talend.org/mdmserverobject" xmlns:xmi="http://www.omg.org/XMI" concept="*" condition="OpIsCreate And ContainerIsProduct And ModelIsProduct And EntityIsProduct" description="Check availability of Product on create" name="CheckAvailabilityOnCreate" parameters="&#10;&lt;configuration&gt; &#10;    &lt;url&gt;ltj://CheckAvailability/0.1&lt;/url&gt;  &#10;    &lt;contextParam&gt; &#10;        &lt;name&gt;exchangeMessage&lt;/name&gt;  &#10;        &lt;value&gt;{exchange_data}&lt;/value&gt; &#10;    &lt;/contextParam&gt; &#10;&lt;/configuration&gt;&#10;" serviceJNDI="amalto/local/service/callJob" synchronous="true" xmi:id="_t4HnA3dIEeGMK_tLGnzsJg" xmi:version="2.0">
+  <wsRoutingRuleExpressions name="OpIsCreate" value="CREATE" xmi:id="_t4HnBHdIEeGMK_tLGnzsJg" xpath="Update/OperationType">
+    <wsOperator value="EQUALS" xmi:id="_t4HnBXdIEeGMK_tLGnzsJg"/>
+  </wsRoutingRuleExpressions>
+  <wsRoutingRuleExpressions name="ContainerIsProduct" value="Product" xmi:id="_t4HnBndIEeGMK_tLGnzsJg" xpath="Update/DataCluster">
+    <wsOperator value="EQUALS" xmi:id="_t4HnB3dIEeGMK_tLGnzsJg"/>
+  </wsRoutingRuleExpressions>
+  <wsRoutingRuleExpressions name="ModelIsProduct" value="Product" xmi:id="_t4HnCHdIEeGMK_tLGnzsJg" xpath="Update/DataModel">
+    <wsOperator value="EQUALS" xmi:id="_t4HnCXdIEeGMK_tLGnzsJg"/>
+  </wsRoutingRuleExpressions>
+  <wsRoutingRuleExpressions name="EntityIsProduct" value="Product" xmi:id="_t4HnCndIEeGMK_tLGnzsJg" xpath="Update/Concept">
+    <wsOperator value="EQUALS" xmi:id="_t4HnC3dIEeGMK_tLGnzsJg"/>
+  </wsRoutingRuleExpressions>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f9448fac-c8a2-462b-8573-a7314d8cb98d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9xCDsmNC7Opswo0SS2nuv8u1zIWB8tJ/sWArXdd3rGBogohEX+4oXTcW4AsgeI0ksZ2aF8yljL3S&#13;
+ai5SYkwREA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8f28ee56-5b27-435f-b236-8c213b03c29f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qs6ymS2iNfPqGbteKK0dQAHqc5f1Nbm87lFwEcY9QXMNn76e0yFg1uJAF3N/Ho1rsmjIWIF42F9Y&#13;
+/kSFGjZC3A==</DigestValue></Reference></SignedInfo><SignatureValue>dqRr7JPwBLKdtBaG011UhRfOkhdWTTU5o/HQvVmXPg8/LOZusJhnFKJgwrUSy5reDcKzZS+6x/X9&#13;
+G646JJyxUepjNL4EjwF6TmzdY8Za2ry0clTPQ1eoyZY5q4/EPuvP8TEbWCwUVJUZUyebGDwqr4cE&#13;
+c68ItGigzC4y9pY5vY1WDeOg+wxqPBm7UKYxC2wMZHCz4lYAQ09NLJBoy3+qW2fPzUQa1kdd4Eiw&#13;
+MMR2ZjKx4enxAoVGgUaHcXzazqcpcvoy4E29MjlckW2g/f5Wnb2M6h89uJBUULFPW+YxVMA2RrKu&#13;
+qIGnpxiT5S34LppYSShRMkWV97p1bJG5mPppYA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8f28ee56-5b27-435f-b236-8c213b03c29f" Target="#_f9448fac-c8a2-462b-8573-a7314d8cb98d"><Timestamp>2021-09-14 08:48:19</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></mdmserverobject:WSRoutingRuleE>

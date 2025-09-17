@@ -1,0 +1,26 @@
+{
+  "itemId" : "_OHUhYHABEeq_CefpXUhzvw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_PmB7EHABEeq_CefpXUhzvw",
+    "parameterList" : [ {
+      "id" : "_zOMtUcQgEeuhe9YyUiV5_w",
+      "name" : "context_jdbc_teradata_connection_jdbcUrl"
+    }, {
+      "id" : "_zOMtUsQgEeuhe9YyUiV5_w",
+      "name" : "context_jdbc_teradata_connection_userPassword_userId"
+    }, {
+      "id" : "_zOMtU8QgEeuhe9YyUiV5_w",
+      "name" : "context_jdbc_teradata_connection_userPassword_password"
+    }, {
+      "id" : "_zOMtVMQgEeuhe9YyUiV5_w",
+      "name" : "context_jdbc_teradata_connection_driverClass"
+    }, {
+      "id" : "_zOMtVcQgEeuhe9YyUiV5_w",
+      "name" : "context_jdbc_teradata_drivers"
+    }, {
+      "id" : "_zOMtVsQgEeuhe9YyUiV5_w",
+      "name" : "context_jdbc_teradata_mappingFile"
+    } ]
+  } ]
+}

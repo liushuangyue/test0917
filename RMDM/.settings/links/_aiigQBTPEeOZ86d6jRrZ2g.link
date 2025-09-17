@@ -1,0 +1,48 @@
+{
+  "itemId" : "_aiigQBTPEeOZ86d6jRrZ2g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_K6F5wKxBEeGdy-T2skU_Bw",
+    "parameterList" : [ {
+      "id" : "_KEK2Vx60EeyAB7e2CfBaPA",
+      "name" : "jobtracker_host"
+    }, {
+      "id" : "_KEK2WB60EeyAB7e2CfBaPA",
+      "name" : "jobtracker_port"
+    }, {
+      "id" : "_KEK2UB60EeyAB7e2CfBaPA",
+      "name" : "namenode_host"
+    }, {
+      "id" : "_KEK2UR60EeyAB7e2CfBaPA",
+      "name" : "namenode_port"
+    }, {
+      "id" : "_KEK2Uh60EeyAB7e2CfBaPA",
+      "name" : "user"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_2PvWcA9FEeOlWM5IeMqgUw",
+    "parameterList" : [ {
+      "id" : "_KEMEdB60EeyAB7e2CfBaPA",
+      "name" : "HDFS_LOCATION_TARGET"
+    }, {
+      "id" : "_KELdYh60EeyAB7e2CfBaPA",
+      "name" : "KEY_LOGS_DIRECTORY"
+    }, {
+      "id" : "_KELdYx60EeyAB7e2CfBaPA",
+      "name" : "MYSQL_DBNAME_TO_MIGRATE"
+    }, {
+      "id" : "_KEMEcB60EeyAB7e2CfBaPA",
+      "name" : "MYSQL_HOST_or_IP"
+    }, {
+      "id" : "_KEMEcR60EeyAB7e2CfBaPA",
+      "name" : "MYSQL_PORT"
+    }, {
+      "id" : "_KEMEch60EeyAB7e2CfBaPA",
+      "name" : "MYSQL_PWD"
+    }, {
+      "id" : "_KEMEcx60EeyAB7e2CfBaPA",
+      "name" : "MYSQL_USERNAME"
+    } ]
+  } ]
+}

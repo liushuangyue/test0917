@@ -1,0 +1,26 @@
+{
+  "itemId" : "_YSqm4A2sEeawrKA1QmglPg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_F7J90P6BEei-Z4PkRoQY6Q",
+    "parameterList" : [ {
+      "id" : "_nKJQIcQhEeuyuOvTLiHUsw",
+      "name" : "context_db2_Server"
+    }, {
+      "id" : "_nKJQIsQhEeuyuOvTLiHUsw",
+      "name" : "context_db2_Database"
+    }, {
+      "id" : "_nKJQI8QhEeuyuOvTLiHUsw",
+      "name" : "context_db2_Login"
+    }, {
+      "id" : "_nKJQJMQhEeuyuOvTLiHUsw",
+      "name" : "context_db2_Password"
+    }, {
+      "id" : "_nKJQJcQhEeuyuOvTLiHUsw",
+      "name" : "context_db2_Port"
+    }, {
+      "id" : "_nKJQJsQhEeuyuOvTLiHUsw",
+      "name" : "context_db2_Schema"
+    } ]
+  } ]
+}

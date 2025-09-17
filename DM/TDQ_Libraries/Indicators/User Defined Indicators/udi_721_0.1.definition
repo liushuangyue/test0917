@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.indicators.definition.userdefine:UDIndicatorDefinition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.indicators.definition.userdefine="http://dataquality.indicators.definition.userdefine" xmi:id="_WmHwIBOIEeuREowTFtlKNg" name="udi_721" label="udi_721">
+  <taggedValue xmi:id="_WmHwIROIEeuREowTFtlKNg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_WmHwIhOIEeuREowTFtlKNg" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_WmHwIxOIEeuREowTFtlKNg" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_WmHwJBOIEeuREowTFtlKNg" tag="Description" value=""/>
+  <taggedValue xmi:id="_WmHwJROIEeuREowTFtlKNg" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_WmHwJhOIEeuREowTFtlKNg" tag="Validation_Status" value="true"/>
+  <categories href="../../.Talend.definition#_b5F7QHqTEd67hM2eKD3QgQ"/>
+  <sqlGenericExpression xmi:id="_YDK88BOIEeuREowTFtlKNg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL" version="" modificationDate="2020-10-21 18:30:01" expressionVariableMap="ACED0005737200116A6176612E7574696C2E486173684D61700507DAC1C31660D103000246000A6C6F6164466163746F724900097468726573686F6C6478703F4000000000000C770800000010000000017400123C57484552455F544558545F4649454C443E74000078"/>
+  <viewRowsExpression xmi:id="_YDLkABOIEeuREowTFtlKNg" body="SELECT * FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL" version="" modificationDate="2020-10-21 18:30:01"/>
+</dataquality.indicators.definition.userdefine:UDIndicatorDefinition>

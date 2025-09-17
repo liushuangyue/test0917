@@ -1,0 +1,26 @@
+{
+  "itemId" : "_eLtL0G_REeq-1d-ruStDUA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_chvHEHACEeq_CefpXUhzvw",
+    "parameterList" : [ {
+      "id" : "_nI7IIcQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_informix_connection_userPassword_userId"
+    }, {
+      "id" : "_nI7IIsQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_informix_drivers"
+    }, {
+      "id" : "_nI7II8QhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_informix_mappingFile"
+    }, {
+      "id" : "_nI7IJMQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_informix_connection_jdbcUrl"
+    }, {
+      "id" : "_nI7IJcQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_informix_connection_userPassword_password"
+    }, {
+      "id" : "_nI7IJsQhEeuyuOvTLiHUsw",
+      "name" : "context_jdbc_informix_connection_driverClass"
+    } ]
+  } ]
+}
